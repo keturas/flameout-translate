@@ -503,6 +503,7 @@
       "premiumNoBuy": "не куплен",
       "developer": "Developer",
       "translator": "Translator",
+      "birthday": "День рождение",
       "moderator": "Moderator",
       "donater": "Donater",
       "donated": "Задоначено `%s` рублей.",
