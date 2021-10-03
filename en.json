@@ -1,0 +1,477 @@
+{
+  "hello": "Hey! This is the first test phrase in English.",
+  "general": {
+    "Site": "Site",
+    "Sites": "Sites",
+    "Bonus": "Bonus",
+    "Discord": "Discord",
+    "Info": "Info",
+    "Eco": "Economy",
+    "Fun": "Fun",
+    "Music": "Music",
+    "Minecraft": "Minecraft",
+    "Bot": "Bot",
+    "Admin": "Admin",
+    "PhotoFilters": "Photo filters",
+    "VKontakte": "VK",
+    "Other": "Other",
+    "Devs": "Developers",
+    "Updating": "Updating",
+    "SiteOfBot": "Bot site",
+    "Invite": "Invite me",
+    "clickHere": "Click here",
+    "executor": "Requested: %s",
+    "onlynsfw": "this command can only be used in the NSFW channel.",
+    "userdonthaveavatar": "%s don't have avatar...",
+    "bank": "Bank",
+    "availablefromflamepremium": "Available from FlameOut **Premium**",
+    "bitcoin": "Bitcoin",
+    "prefix": "Prefix",
+    "links": "Links",
+    "version": "Bot version",
+    "botCommands": "Bot commands",
+    "secretpage": "Secret page"
+  },
+  "command": {
+    "nomanageserverrights": "you don't have `Manage server` rights.",
+    "nomanagemessagesrights": "у тебя нет права на управление сообщениями.",
+    "cooldown": "cooldown %s seconds.",
+    "allresources": {
+      "allresinbot": "Bot economy",
+      "inbank": "In bank: `%s`",
+      "gifts": "Gifts: `%s`",
+      "coins": "Coins: `%s`",
+      "boxes": "Boxes: `%s`",
+      "bitcoins": "Bitcoins: `%s`",
+      "snus": "Snus: `%s`",
+      "levels": "Levels: `%s`",
+      "experience": "Experience: `%s`",
+      "wood": "Wood: `%s`",
+      "fish": "Fish: `%s`"
+    },
+    "categorystats": {
+      "stats": "Category stats"
+    },
+    "photofilter": {
+      "creating": "creating...",
+      "nophoto": "you haven't attached a photo to your message."
+    },
+    "perms": {
+      "nouser": "you don't mention user.",
+      "userperms": "Права упомянутого участника"
+    },
+    "ping": {
+      "pong": "Pong, i'm working!\n🏓 Latency: `%s` ms\n🏓 API Latency: `%s` ms"
+    },
+    "ban": {
+      "BotNotHaveRightsToManageChannels": "bot don't have `Manage channels` rights.",
+      "usernothaverightstoban": "you do not have the rights to issue bans.",
+      "botnothaverightstoban": "the bot does not have the rights to issue a ban.",
+      "nomention": "you forgot to mention the person you want to ban.",
+      "noreason": "you forgot to indicate the reason for the ban.",
+      "userbanned": "👤 Banned: %s\n🗒️ Reason: %s"
+    },
+    "setprefix": {
+      "noprefix": "specify the prefix you want to set.",
+      "setprefix": "now on this server the prefix is - `%s`"
+    },
+    "setslowmode": {
+      "noslowmode": "specify the time for the slowmode, for example `5`. To disable, specify `-`",
+      "limit": "maximum slowmode time is `26000` seconds (6 hours)",
+      "changed": "changed: %s",
+      "changeslowmode": "now on this channel the slowmode is `%s` seconds."
+    },
+    "kick": {
+      "usernothaverightstokick": "you don't have permission to kick user.",
+      "botnothaverightstokick": "bot don't have permission to kick user.",
+      "nomention": "you forgot to mention the person you want to kick.",
+      "noreason": "you forgot to indicate the reason for the kick.",
+      "userkick": "👤 Kicked: %s\n🗒️ Reason: %s"
+    },
+    "bank": {
+      "info": "This is your bank! Here you can\nkeep your money knowing what\nyou have. They will not pick you\nup during robberies. You can\nalways bring them out.\nMaximum number of coins in\nthe bank depends on your level.",
+      "infoflamepremium": "There is one **BUT** you can\nrob people who have\nFlameOut **Premium**, details: **%sdonate**",
+      "depositinbank": "Put money in the bank:",
+      "withdrawfrombank": "Withdraw money from the bank:",
+      "deposit": {
+        "deposit": "how much do you want to put in the bank?",
+        "usernothavecoins": "you don't have coins.",
+        "notenoughcoins": "not enough coins.",
+        "maxcoinsinthebank": "you have the maximum number of coins in the bank.",
+        "depositmoremaxcoinsinbank": "Do you want to put more than the maximum",
+        "userdepositcoins": "You put `%s` in the bank"
+      },
+      "withdraw": {
+        "withdraw": "how many coins do you want to withdraw from the bank?",
+        "removemoreminimumcoinsfromthebank": "You want to withdraw more coins than you have in the bank.",
+        "userwithdrawcoins": "You have withdrawn `%s` coins from the bank."
+      }
+    },
+    "bankhack": {
+      "usercanrobbankaccounts": "you can rob bank accounts again. Command: %s",
+      "userrobbank": "mention who you want to rob a bank account from.",
+      "robbing": "you select pin codes, it will take `10` minutes.",
+      "bankzapolnen": "The bank is full!",
+      "maxcoinsinbank": "You have a maximum of coins in the bank, because of this\ncoins from the robbery received on the main account",
+      "successrobbankindm": "You were robbed by `%s`, he took from you `%s` coins from your bank account.",
+      "successrobbankuser": "You have successfully robbed %s and obtained %s coins.",
+      "failinrobbing": "Failed robbery",
+      "userlostcoins": "You have lost `%s` coins,\ntry in `1` hour..."
+    },
+    "bin": {
+      "maxnumber": "maximum number of `%s`",
+      "nonumber": "you forgot to add a number to your message."
+    },
+    "fish": {
+      "fish": "Fishing",
+      "cooldown": "the fish is afraid of you! (cooldown `%s` seconds)",
+      "minimum5level": "to fish you need a minimum `5` level",
+      "fishgo": "You came from fishing and got:"
+    },
+    "fishsell": {
+      "userdonthavefish": "you don't have `fish`.",
+      "fishsell": "`%s` fish are sold for \"%s\" coins."
+    },
+    "botinfo": {
+      "infothebot": "Bot information",
+      "usingram": "RAM used.",
+      "uptime": "Uptime",
+      "botname": "Bot name",
+      "channels": "Channels",
+      "command": "Command",
+      "slashcommand": "Slash commands",
+      "servers": "Servers",
+      "users": "Users",
+      "ping": "Ping",
+      "emojis": "Emojis",
+      "shards": "Shards",
+      "botcreated": "Bot created",
+      "commandsstats": "Commands stats",
+      "botcommands": "Bot commands",
+      "prefixofserver": "Prefix of server"
+    },
+    "animals": {
+      "randomcat": "Random cat",
+      "randombunny": "Random bunny",
+      "randomdog": "Random dog",
+      "randomduck": "Random duck",
+      "randomfox": "Random fox",
+      "randomlizard": "Random lizard",
+      "randompanda": "Random panda",
+      "randomredpanda": "Random red panda",
+      "randombird": "Random bird",
+      "randonkoala": "Random koala"
+    },
+    "bitcoin": {
+      "bitcoininfo": "The cost of buying and selling\nbitcoin depends on its real\n[rate](https://www.google.com/search?q=bitcoin+rate). There is bitcoin in the bot right now\ncosts `%s` coins. At the moment, the rate is `%s%` of the\nreal.",
+      "soviet": "We advise you to sell bitcoins\nwhen the rate goes up.",
+      "bitcoinbuy": "Buy bitcoin",
+      "bitcoinsell": "Sell bitcoin"
+    },
+    "bitcoinsell": {
+      "userdonthavebitcoin": "you don't have `bitcoins`.",
+      "usersellbitcoin": "`1` bitcoin was sold for `%s` coins."
+    },
+    "paybitcoin": {
+      "nouser": "упомяните того, кому хотите перевести `1` биткоин.",
+      "nobitcoins": "you don't have bitcoins.",
+      "paytome": "Зачем самому себе переводить биткоин?",
+      "paybitcoin": "Вы перевели `1` биткоин <@%s>"
+    },
+    "paysnus": {
+      "nouser": "упомяните того, кому хотите подарить снюс.",
+      "nosnus": "you don't have snus.",
+      "paytome": "Зачем самому себе дарить снюс?",
+      "paysnus": "<@%s> подарил снюс %s"
+    },
+    "pension": {
+      "pension": "Pension",
+      "stop": "получать пенсию можно раз в месяц, приходите за новой 01.%s.2021 ⏰",
+      "youReceived": "💳 You received: `%s` coins."
+    },
+    "bug": {
+      "noargument": "You forgot the argument",
+      "bugsend": "A bug or idea was posted."
+    },
+    "checkip": {
+      "noip": "you did not specify the ip.",
+      "ipcheckdeny": "You cannot find out information about this ip.",
+      "neopredeleno": "undefined",
+      "no": "no",
+      "yes": "yes",
+      "infopoip": "IP information",
+      "continent": "Continent",
+      "timezone": "Timezone",
+      "strana": "Country",
+      "provaider": "ISP",
+      "domen": "Domain",
+      "ip": "IP",
+      "hosting": "Hosting",
+      "proxy": "Proxy",
+      "currency": "Currency"
+    },
+    "choose": {
+      "no1thvariant": "you have not specified the 1st option.",
+      "no2thvariant": "you have not specified the 2nd option.",
+      "vibor": "I choose `%s`"
+    },
+    "clear": {
+      "nodeleteargument": "how many messages do you want to delete?",
+      "menshe100": "specify a number less than `100`.",
+      "bolshe0": "specify a number greater than `0`",
+      "userdoesntrightspermissionstoclear": "you do not have permission to manage messages.",
+      "botdoesntrightspermissionstoclear": "the bot has no rights to manage messages.",
+      "deletemessages": "deleted messages: `%s`"
+    },
+    "covid19": {
+      "covid19": "COVID-19",
+      "inworld": "In world",
+      "confirmed": "Confirmed",
+      "recovered": "Recovered",
+      "deaths": "Deaths"
+    },
+    "cube": {
+      "netstavki": "you did not specify a bet.",
+      "maxstavka": "maximum bet is `%s` coins.",
+      "nocoins": "not enough coins.",
+      "botthinking": "Bot thinking...",
+      "userDice": "You got a number: %s",
+      "botDice": "The bot got a number: %s",
+      "nichya": "Ничья!",
+      "userwin": "Congratulations, you won `%s` money!",
+      "userlost": "You lost `%s` money!"
+    },
+    "dance": {
+      "userdancing": "%s dancing."
+    },
+    "eat": {
+      "usereating": "%s eating."
+    },
+    "event": {
+      "userget": "You have already received gifts for the event. The last event was <t:1633392000:R>.",
+      "getresources": "Day of Teacher in Russiar! Catch `%s` gifts!",
+      "noevent": "there are no events scheduled for this month yet. The last event was <t:1633392000:R>."
+    },
+    "cointree": {
+      "cointree": "Money tree",
+      "info": "It's money tree!\nThe number of coins received\ndepends on your level. For\n`1` level `%s` coins.",
+      "newmoneytime": "New coins will appear in `1` hour.",
+      "newmoney": "New coins have appeared! Use `%s`",
+      "givemoney": "You got `%s` coins from the money tree."
+    },
+    "leaders": {
+      "leaders": "Leaders",
+      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Boxes\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles",
+      "nousers": "**At the moment, the top is empty.**",
+      "leadersofexp": "Leaders of experience",
+      "leadersofcoins": "Leaders of coins",
+      "leadersofbitcoin": "Leaders of bitcoin",
+      "leadersofgift": "Leaders of gift",
+      "leadersofbank": "Leaders of money in bank",
+      "leadersoflevel": "Leaders of level",
+      "leadersofdonate": "Leaders of donate",
+      "leadersofboxes": "Leaders of boxes",
+      "leadersofsnus": "Leaders of snus",
+      "leadersofsnake": "Leaders of snake",
+      "leadersofvotes": "Leaders of votes"
+    },
+    "levelup": {
+      "disable": "Сообщения о повышении уровня выключены.",
+      "enable": "Сообщения о повышении уровня включены."
+    },
+    "donate": {
+      "donate": "Help the project",
+      "flameoutpremiumza30rub": "`Forever` for `35` rubles",
+      "dostup": "🎁 Commands | `%smgift`, `%sbankhack`, `%scointree`, `%smopenbox`\n🆕 Вещи | Получение новых вещей после выхода.\n🎲 Cube | Максимальная ставка `30 000` монет.\n💳 Pension | x2 coins in pension!\n📦 CBT | Access to closed beta tests."
+    },
+    "gift": {
+      "opengift": "Open gift",
+      "useropengift": "You opened your gift and dropped out of it:",
+      "giveresource": "💰 `%s` coins | 🔋 `%s` XP",
+      "havegifts": "You still have `%s` gifts left",
+      "userdonthavegifts": "you don't have `gifts`."
+    },
+    "mgift": {
+      "nokolichestvo": "you have not specified how many gifts you want to open.",
+      "nogifts": "Not enough gifts.",
+      "opengifts": "Open gifts",
+      "useropengifts": "You opened your gifts and dropped out of it:",
+      "giveresource": "💰 `%s` coins | 🔋 `%s` XP",
+      "havegifts": "🎁 You still have `%s` gifts left"
+    },
+    "mine": {
+      "waitcooldown": "wait 10 minutes before your next trip to the mine.",
+      "stone": "Stone: `%s`",
+      "coal": "Coal: `%s`",
+      "iron": "Iron: `%s`",
+      "lapis": "Лазурита: `%s`",
+      "gold": "Gold: `%s`",
+      "copper": "Меди: `%s`",
+      "redstone": "Редстоуна: `%s`",
+      "diamond": "Diamond: `%s`",
+      "emerald": "Изумрудов: `%s`",
+      "netherite": "Netherite: `%s`",
+      "info": "The resources you get in the\nmines depend on your level:\n`0 -> 5` level: stone\n`5 -> 10` level: coal\n`10 -> 15` level: iron\n`15 -> 20` level: diamonds\n`20 -> 25` level: netherite.",
+      "giveresources": "You went to the mine and got:",
+      "giveexp": "Experience: `%s`"
+    },
+    "minecraftplayer": {
+      "nonickname": "specify the player's nickname.",
+      "infoskin": "Minecraft skin:",
+      "playeruuid": "Player UUID:",
+      "title": "Player info",
+      "skininfo": "Player skin:",
+      "downoloadskin": "Download skin"
+    },
+    "minecraftserver": {
+      "noip": "specify the IP address of the server.",
+      "infoofserver": "Info of server",
+      "online": "Online: `%s` / `%s`",
+      "version": "Version: `%s`"
+    },
+    "gifttobox": {
+      "min15gifts": "Not enough gifts to exchange.",
+      "usertrade": "You have exchanged `15` gifts for `one` box."
+    },
+    "hit": {
+      "nomention": "mention who you want to hit.",
+      "userhit": "%s hit %s"
+    },
+    "hug": {
+      "nomention": "you forgot to mention the person you want to hug.",
+      "userhug": "%s hug %s"
+    },
+    "kiss": {
+      "nomention": "mention who you want to kiss.",
+      "userkiss": "%s целует %s"
+    },
+    "hungry": {
+      "userhungry": "%s hungry"
+    },
+    "hypixelstats": {
+      "nonickname": "specify the player's nickname.",
+      "nope": "No",
+      "offline": "Offline",
+      "online": "Online",
+      "playerprofile": "Player profile **%s**",
+      "achievementpoints": "Achievement points: %s",
+      "questscompleted": "Quests completed: %s",
+      "totalkills": "Total kills: %s",
+      "totalwins": "Total wins: %s",
+      "giftsended": "Gifts sended: %s",
+      "giftreceived": "Gifts received: %s",
+      "lastgame": "Last game: %s",
+      "mcversion": "Minecraft version: %s",
+      "gamelanguage": "Game language: %s",
+      "rank": "Rank: %s",
+      "rankcolor": "Rank color: %s",
+      "totalcoins": "Coins: %s",
+      "karma": "Karma: %s",
+      "level": "Level: %s",
+      "xp": "Experience: %s",
+      "error": "Something went wrong. Please, try again later."
+    },
+    "invitebot": {
+      "invite": "Invite me to your server!"
+    },
+    "janitor": {
+      "cooldown": "no garbage! New garbage will appear in `10` minutes.",
+      "userjanitor": "You went to work as a janitor, the working day will end in `10` minutes.",
+      "nomusor": "you did not find any garbage. Try again.",
+      "job": "For your work as a janitor, you received `500` coins."
+    },
+    "help": {
+      "support": "You can support the project with the\ncommand",
+      "info": "Some information about the\nbot by the command",
+      "oldMenu": "Old menu",
+      "bug": "If you found bug",
+      "idea": "If you have idea",
+      "getBonus": "Get bonus",
+      "page": "Page: %s"
+    },
+    "popit": {
+      "name": "Pop-it in discord"
+    },
+    "pressf": {
+      "nouser": "you don't mention user."
+    },
+    "profile": {
+      "premiumBuy": "куплен",
+      "premiumNoBuy": "не куплен",
+      "developer": "Developer",
+      "translator": "Translator",
+      "moderator": "Moderator",
+      "donater": "Donater",
+      "donated": "Задоначено `%s` рублей.",
+      "inbank": "Bank: `%s / %s`",
+      "exp": "Experience: `%s / %s`",
+      "level": "Level: `%s ~ %s`",
+      "bitcoins": "Bitcoins: `%s`",
+      "coins": "Coins: `%s`",
+      "gifts": "Gifts: `%s`",
+      "boxes": "Boxes: `%s`",
+      "snus": "Snus: `%s`",
+      "wood": "Wood: `%s`",
+      "fish": "Fish: `%s`",
+      "badges": "Badges:",
+      "footerProfile": "Profile of %s"
+    },
+    "rankcard": {
+      "bg": {
+        "default1": "🗒️ Основной фон #1",
+        "default2": "🗒️ Основной фон #2",
+        "oneseptember": "🗒️ Первое сентября",
+        "wolf": "🗒️ Волк",
+        "stones": "🗒️ Камни"
+      },
+      "bgsinfo": {
+        "default1": "📘 Первоначальный фон.\n🗓️ Дата добавления: 01.09.21 1:08",
+        "default2": "📘 Когда-то это был первоначальный фон.\n🗓️ Дата добавления: 09.06.21",
+        "oneseptember": "📘 Добавлен в честь дня знаний.\n🗓️ Дата добавления: 01.09.21 2:59",
+        "wolf": "📘 Ауф!\n🗓️ Дата добавления: 01.09.21 3:36",
+        "stones": "📘 Просто камни.\n🗓️ Дата добавления: 01.09.21 3:40"
+      },
+      "pagelisting": "Для перемещения по страницам используйте реакции.",
+      "nobg": "<@%s> ты не выбрал какой фон хочешь установить.",
+      "bgchanged": "Фон успешно поставлен.",
+      "level": "Уровень: %s ~ %s",
+      "exp": "Опыт: %s / %s"
+    },
+    "quote": {
+      "error": "что-то пошло не так... Error: ",
+      "error2": "что-то пошло не так..."
+    },
+    "minesell": {
+      "noresources": "вы слышали про **%smine**?",
+      "sellresources": "Продажа ресурсов",
+      "sellstone": "`%s` камня продано за `%s` монет.",
+      "sellcoal": "`%s` угля продано за `%s` монет.",
+      "selliron": "`%s` железа продано за `%s` монет.",
+      "selllapis": "`%s` лазурита продано за `%s` монет.",
+      "sellgold": "`%s` золота продано за `%s` монет.",
+      "sellcopper": "`%s` меди продано за `%s` монет.",
+      "sellredstone": "`%s` редстоуна продано за `%s` монет.",
+      "selldiamond": "`%s` алмазов продано за `%s` монет.",
+      "sellemerald": "`%s` изумрудов продано за `%s` монет.",
+      "sellnetherite": "`%s` незерита продано за `%s` монет.",
+      "allcoins": "Всего получено монет: `%s`"
+    },
+    "mopenbox": {
+      "noArgs": "Вы не указали, сколько хотите открыть боксов.",
+      "nedostatochnoBoksov": "ты пытаешься открыть столько боксов, сколько у тебя нет.",
+      "noBoxes": "У тебя нет боксов.",
+      "openBoxes": "Открытие боксов",
+      "openBoxesText": "Вы открыли боксы и из них выпало:",
+      "noResources": "В `%s` боксах из `%s` ничего не выпало.",
+      "userBoxes": "У вас осталось ещё `%s` боксов.",
+      "giftfrombox": "Вам выпало `%s` подарков из бокса.",
+      "nopefrombox": "Вам ничего не выпало.",
+      "coinsfrombox": "Вам выпало `%s` монет.",
+      "expfrombox": "Вам выпало `%s` опыта.",
+      "snusfrombox": "Вам выпало `%s` снюса."
+    },
+    "openbox": {
+      "openbox": "Opening box"
+    }
+  }
+}
