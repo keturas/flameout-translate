@@ -33,10 +33,7 @@
     "secretpage": "Secret page"
   },
   "command": {
-    "pagelisting": "Для перемещения по страницам используйте реакции.",
-    "dateformat1": " D [дней], H [часов], m [минут], s [секунд]",
-    "dateformat2": " D [д], H [ч], m [мин], s [сек]",
-    "nomanageserverrights": "у тебя нет права на управление сервером.",
+    "nomanageserverrights": "you don't have `Manage server` rights.",
     "nomanagemessagesrights": "у тебя нет права на управление сообщениями.",
     "cooldown": "cooldown %s seconds.",
     "allresources": {
@@ -44,6 +41,7 @@
       "inbank": "In bank: `%s`",
       "gifts": "Gifts: `%s`",
       "coins": "Coins: `%s`",
+      "leaf": "Leafs: `%s`",
       "boxes": "Boxes: `%s`",
       "bitcoins": "Bitcoins: `%s`",
       "snus": "Snus: `%s`",
@@ -56,75 +54,8 @@
       "stats": "Category stats"
     },
     "photofilter": {
-      "creating": "создаю...",
-      "nophoto": "вы забыли прикрепить фотографию к сообщению.",
-      "noavatar": "у вас нет аватарки.",
-      "userdonthaveavatar": "у упоминаемого пользователя нет аватарки."
-    },
-    "react": {
-      "adding": "🔄 | Добавляем реакции к вашему сообщению...",
-      "done": "✅ | Реакции успешно добавлены к вашему сообщению."
-    },
-    "redguyinfo": {
-      "noid": "вы не указали айди пользователя пользователя https://account.redguy.ru.",
-      "firstname": "Имя: %s",
-      "lastname": "Фамилия: %s",
-      "nickname": "Ник: %s",
-      "userprofile": "Профиль пользователя",
-      "profileclosed": "Запрашиваемый профиль закрыт.",
-      "nouser": "Пользователь не найден."
-    },
-    "redguystats": {
-      "nonickname": "вы не указали **никнейм игрока** с сервера **RedGuy**.",
-      "userprofile": "Профиль игрока ****",
-      "money": "Монет: ",
-      "tokens": "Токенов: ",
-      "allkills": "Всего убийств: ",
-      "allwins": "Всего побед: "
-    },
-    "rob": {
-      "cooldown": "кулдаун `30` минут.",
-      "nocooldown": "ты снова можешь грабить. Команда `%srob`",
-      "minimumlevel": "для грабежей нужен минимум `15` уровень.",
-      "nomention": "упомяните того, кого хотите ограбить.",
-      "robbing": "ты ищишь незапертые двери в доме, это займёт 5 минут.",
-      "uspeshno": "Ты успешно ограбил <@%s> и получил `%s` монет.",
-      "neudachno": "вы нашли открытые двери в полицию... Попробуйте через `30` минут."
-    },
-    "roulette": {
-      "example": "Пример ввода: `%sroulette [чет/нечет/число] [ставка]`",
-      "nomoney": "недостаточно средств",
-      "win": "вы выиграли! Выпало число: %s\nСумма ставки удвоилась на 2",
-      "lost": "вы проиграли! Выпало число: %s\nСумма вычтена из баланса"
-    },
-    "sad": {
-      "usersad": "<@%s> грустит"
-    },
-    "school": {
-      "cooldown": "перемена 30 минут.",
-      "school": "🏫 Школа - самое опасное место на\nземле. Но пока-что всё хорошо... Вы\nполучили `350` опыта. Перемена\nтридцать минут."
-    },
-    "serverinfo": {
-      "verificationslevels": {
-        "none": "`Отсутствует`",
-        "low": "`Низкий`",
-        "medium": "`Средний`",
-        "high": "`Высокий`",
-        "veri_high": "`Самый высокий`"
-      },
-      "infoofserver": "Информация о сервере",
-      "name": "Название: `%s`",
-      "unknownowner": "Неизвестно",
-      "owner": "Владелец: `%s`",
-      "description": "Описание: %s",
-      "members": "Участников: `%s / %s`",
-      "afkchannel": "AFK канал: <#%s>",
-      "ruleschannel": "Канал с правилами: <#%s>",
-      "verificationlevel": "Уровень проверки: `%s`",
-      "cointofroles": "Количество ролей: `%s`",
-      "cointofemojis": "Количество эмодзи: `%s`",
-      "cointofboosts": "Количество бустов: `%s`",
-      "servercreated": "Сервер создан %s"
+      "creating": "creating...",
+      "nophoto": "you haven't attached a photo to your message."
     },
     "perms": {
       "nouser": "you don't mention user.",
@@ -150,39 +81,6 @@
       "limit": "maximum slowmode time is `26000` seconds (6 hours)",
       "changed": "changed: %s",
       "changeslowmode": "now on this channel the slowmode is `%s` seconds."
-    },
-    "short": {
-      "nolink": "укажите ссылку которую хотите сократить.",
-      "error1": "Ошибка:",
-      "error2": "пожалуйста, введите действительный URL-адрес."
-    },
-    "singing": {
-      "usersinging": "<@%s> поёт"
-    },
-    "sleep": {
-      "usersleep": "<@%s> спит"
-    },
-    "thinks": {
-      "userthinks": "<@%s> думает"
-    },
-    "waiting": {
-      "userwaiting": "<@%s> ждёт"
-    },
-    "snuseat": {
-      "nosnus": "у вас нет снюса.",
-      "eat": "Вы схавали снюс.",
-      "exp": "`+35` опыта"
-    },
-    "uptime": {
-      "format": " D [дней], H [часов], m [минут], s [секунд]",
-      "botuptime": "🕟 `%s` прошло с момента последнего запуска бота."
-    },
-    "setslowmode": {
-      "BotNotHaveRightsToManageChannels": "бот не имеет прав на управление каналом.",
-      "noslowmode": "укажи секунды, например `5`. Если хочешь отключить медленный режим укажи знак минуса.",
-      "limit": "максимальный кулдаун 21600 секунд (6 часов)",
-      "changed": "изменил: %s",
-      "changeslowmode": "слоумод в этом канале теперь %s секунд."
     },
     "kick": {
       "usernothaverightstokick": "you don't have permission to kick user.",
@@ -251,7 +149,7 @@
       "botcreated": "Bot created",
       "commandsstats": "Commands stats",
       "botcommands": "Bot commands",
-      "inserver": "in server"
+      "prefixofserver": "Prefix of server"
     },
     "animals": {
       "randomcat": "Random cat",
@@ -351,9 +249,9 @@
       "usereating": "%s eating."
     },
     "event": {
-      "userget": "You have already received gifts for the event. The last event was <t:1633392000:R>.",
+      "userget": "You have already received gifts for the event. The last event was <t:1633824000:R>.",
       "getresources": "Day of Teacher in Russiar! Catch `%s` gifts!",
-      "noevent": "there are no events scheduled for this month yet. The last event was <t:1633392000:R>."
+      "noevent": "there are no events scheduled for this month yet. The last event was <t:1633824000:R>."
     },
     "cointree": {
       "cointree": "Money tree",
@@ -364,10 +262,11 @@
     },
     "leaders": {
       "leaders": "Leaders",
-      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Boxes\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles",
+      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Leaf\n - `leaf` | Boxes\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles",
       "nousers": "**At the moment, the top is empty.**",
       "leadersofexp": "Leaders of experience",
       "leadersofcoins": "Leaders of coins",
+      "leadersofleaf": "Leaders of leaf",
       "leadersofbitcoin": "Leaders of bitcoin",
       "leadersofgift": "Leaders of gift",
       "leadersofbank": "Leaders of money in bank",
@@ -385,7 +284,7 @@
     "donate": {
       "donate": "Help the project",
       "flameoutpremiumza30rub": "`Forever` for `35` rubles",
-      "dostup": "🎁 Commands | `%smgift`, `%sbankhack`, `%scointree`, `%smopenbox`\n🆕 Вещи | Получение новых вещей после выхода.\n🎲 Cube | Максимальная ставка `30 000` монет.\n💳 Pension | x2 coins in pension!\n📦 CBT | Access to closed beta tests."
+      "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%scointree`, `%smopenbox`\n🆕 Вещи | Получение новых вещей после выхода.\n🎲 Cube | Максимальная ставка `30 000` монет.\n💳 Pension | x2 coins in pension!\n📦 CBT | Access to closed beta tests."
     },
     "gift": {
       "opengift": "Open gift",
@@ -407,12 +306,12 @@
       "stone": "Stone: `%s`",
       "coal": "Coal: `%s`",
       "iron": "Iron: `%s`",
-      "lapis": "Lapis: `%s`",
+      "lapis": "Лазурита: `%s`",
       "gold": "Gold: `%s`",
-      "copper": "Cooper: `%s`",
-      "redstone": "Redstone: `%s`",
+      "copper": "Меди: `%s`",
+      "redstone": "Редстоуна: `%s`",
       "diamond": "Diamond: `%s`",
-      "emerald": "Emerald: `%s`",
+      "emerald": "Изумрудов: `%s`",
       "netherite": "Netherite: `%s`",
       "info": "The resources you get in the\nmines depend on your level:\n`0 -> 5` level: stone\n`5 -> 10` level: coal\n`10 -> 15` level: iron\n`15 -> 20` level: diamonds\n`20 -> 25` level: netherite.",
       "giveresources": "You went to the mine and got:",
@@ -503,7 +402,6 @@
       "premiumNoBuy": "не куплен",
       "developer": "Developer",
       "translator": "Translator",
-      "birthday": "День рождение",
       "moderator": "Moderator",
       "donater": "Donater",
       "donated": "Задоначено `%s` рублей.",
@@ -512,6 +410,7 @@
       "level": "Level: `%s ~ %s`",
       "bitcoins": "Bitcoins: `%s`",
       "coins": "Coins: `%s`",
+      "leafs": "Листиков: `%s`",
       "gifts": "Gifts: `%s`",
       "boxes": "Boxes: `%s`",
       "snus": "Snus: `%s`",
