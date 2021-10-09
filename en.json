@@ -133,6 +133,10 @@
       "userdonthavefish": "you don't have `fish`.",
       "fishsell": "`%s` fish are sold for \"%s\" coins."
     },
+    "leafsell": {
+      "userdonthaveleaf": "у тебя нету `листиков`.",
+      "leafsell": "`%s` листиков продано за `%s` монет."
+    },
     "botinfo": {
       "infothebot": "Bot information",
       "usingram": "RAM used.",
@@ -262,7 +266,7 @@
     },
     "leaders": {
       "leaders": "Leaders",
-      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Leaf\n - `leaf` | Boxes\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles",
+      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Boxes\n - `leafs` | Leaf\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles",
       "nousers": "**At the moment, the top is empty.**",
       "leadersofexp": "Leaders of experience",
       "leadersofcoins": "Leaders of coins",
@@ -380,7 +384,7 @@
       "cooldown": "no garbage! New garbage will appear in `10` minutes.",
       "userjanitor": "You went to work as a janitor, the working day will end in `10` minutes.",
       "nomusor": "you did not find any garbage. Try again.",
-      "job": "For your work as a janitor, you received `500` coins."
+      "job": "For your work as a janitor, you received `500` coins.\n🍂 Листиков собрано: `%s`"
     },
     "help": {
       "support": "You can support the project with the\ncommand",
