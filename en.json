@@ -505,7 +505,7 @@
       "premiumNoBuy": "not bought",
       "developer": "Developer",
       "translator": "Translator",
-      "birthday": "День рождение",
+      "birthday": "Birthday",
       "moderator": "Moderator",
       "donater": "Donater",
       "donated": "Donated `%s` rubles.",
@@ -524,18 +524,18 @@
       "footerProfile": "Profile of %s"
     },
     "resourceprofile": {
-      "resources": "Ресур`сы`",
-      "stone": "Камень: `%s`",
-      "coal": "Уголь: `%s`",
-      "iron": "Железо: `%s`",
-      "lapis": "Лазурит: `%s`",
-      "gold": "Золото: `%s`",
-      "copper": "Медь: `%s`",
-      "quartz": "Кварц: `%s`",
-      "redstone": "Редстоун: `%s`",
-      "diamond": "Алмазы: `%s`",
-      "emerald": "Изумрудов: `%s`",
-      "netherite": "Незерита: `%s`"
+      "resources": "Resources",
+      "stone": "Stone: `%s`",
+      "coal": "Coal: `%s`",
+      "iron": "Iron: `%s`",
+      "lapis": "Lapis: `%s`",
+      "gold": "Gold: `%s`",
+      "copper": "Copper: `%s`",
+      "quartz": "Quartz: `%s`",
+      "redstone": "Redstone: `%s`",
+      "diamond": "Diamond: `%s`",
+      "emerald": "Emerald: `%s`",
+      "netherite": "Netherite: `%s`"
     },
     "rankcard": {
       "bg": {
@@ -597,7 +597,7 @@
       "noSnus": "У тебя нет снюса.",
       "eatSnus": "Съедание снюса",
       "eatSnusText": "Вы схавали снюс",
-      "addExp": "`+%s` опыта",
+      "addExp": "`+%s` experience",
       "haveSnus": "У вас осталось ещё `%s` снюса."
     },
     "openbox": {
