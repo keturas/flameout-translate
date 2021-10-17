@@ -33,6 +33,7 @@
     "secretpage": "Secret page"
   },
   "command": {
+    "inde1": "(в разработке)",
     "pagelisting": "Use reactions to navigate the pages.",
     "dateformat1": " D [days], H [hours], m [minutes], s [seconds]",
     "dateformat2": " D [d], H [h], m [min], s [sec]",
@@ -115,12 +116,12 @@
       },
       "infoofserver": "Информация о сервере",
       "name": "Название: `%s`",
-      "unknownowner": "Неизвестно",
+      "unknown": "Неизвестно",
       "owner": "Владелец: `%s`",
       "description": "Описание: %s",
       "members": "Участников: `%s / %s`",
-      "afkchannel": "AFK канал: <#%s>",
-      "ruleschannel": "Канал с правилами: <#%s>",
+      "afkchannel": "AFK канал: %s",
+      "ruleschannel": "Канал с правилами: %s",
       "verificationlevel": "Уровень проверки: `%s`",
       "cointofroles": "Количество ролей: `%s`",
       "cointofemojis": "Количество эмодзи: `%s`",
@@ -386,7 +387,7 @@
     "donate": {
       "donate": "Help the project",
       "flameoutpremiumza30rub": "`Forever` for `35` rubles",
-      "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%scointree`, `%smopenbox`\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n💳 Pension | x2 coins in pension!\n📦 CBT | Access to closed beta tests."
+      "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%scointree`, `%smopenbox`\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n💳 Pension | x2 coins in pension!\n⛏️ Mine | Titanium pickaxe\n📦 CBT | Access to closed beta tests."
     },
     "gift": {
       "opengift": "Open gift",
@@ -416,7 +417,7 @@
       "diamond": "Diamond: `%s`",
       "emerald": "Emerald: `%s`",
       "netherite": "Netherite: `%s`",
-      "info": "The resources you get in the\nmines depend on your level:\n`0 -> 5` level: stone\n`5 -> 10` level: coal\n`10 -> 15` level: iron\n`15 -> 20` level: diamonds\n`20 -> 25` level: netherite.",
+      "info": "Ресурсы которые вы получаете в\nшахте зависят от вашего уровня:\n`0 -> 5` уровень камень и уголь\n`5 -> 7` уровень железо\n`7 -> 10` уровень лазурит и золото\n`10 -> 13` уровень медь и кварц\n`13 -> 15` уровень редстоун\n`15 -> 17` уровень алмазы\n`17 -> 20` уровень изумруды\n`20 -> 23` уровень незерит.",
       "giveresources": "You went to the mine and got:",
       "giveexp": "Experience: `%s`"
     },
@@ -436,7 +437,7 @@
     },
     "gifttobox": {
       "min15gifts": "Not enough gifts to exchange.",
-      "usertrade": "You have exchanged `15` gifts for `one` box."
+      "usertrade": "You have exchanged `15` gifts to `one` box."
     },
     "hit": {
       "nomention": "mention who you want to hit.",
@@ -503,6 +504,7 @@
     "profile": {
       "premiumBuy": "bought",
       "premiumNoBuy": "not bought",
+      "registered": "Зарегистрирован: %s",
       "developer": "Developer",
       "translator": "Translator",
       "birthday": "Birthday",
@@ -513,11 +515,13 @@
       "exp": "Experience: `%s / %s`",
       "level": "Level: `%s ~ %s`",
       "bitcoins": "Bitcoins: `%s`",
+      "auctions": "Акции: `%s`",
       "coins": "Coins: `%s`",
       "leafs": "Leaves: `%s`",
       "gifts": "Gifts: `%s`",
       "boxes": "Boxes: `%s`",
       "snus": "Snus: `%s`",
+      "pickaxe": "Кирка: `%s`",
       "wood": "Wood: `%s`",
       "fish": "Fish: `%s`",
       "badges": "Badges:",
