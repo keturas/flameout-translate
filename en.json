@@ -417,7 +417,7 @@
       "diamond": "Diamond: `%s`",
       "emerald": "Emerald: `%s`",
       "netherite": "Netherite: `%s`",
-      "info": "Ресурсы которые вы получаете в\nшахте зависят от вашего уровня:\n`0 -> 5` уровень камень и уголь\n`5 -> 7` уровень железо\n`7 -> 10` уровень лазурит и золото\n`10 -> 13` уровень медь и кварц\n`13 -> 15` уровень редстоун\n`15 -> 17` уровень алмазы\n`17 -> 20` уровень изумруды\n`20 -> 23` уровень незерит.",
+      "titanium": "Titanium: `%s`",
       "giveresources": "You went to the mine and got:",
       "giveexp": "Experience: `%s`"
     },
@@ -539,7 +539,8 @@
       "redstone": "Redstone: `%s`",
       "diamond": "Diamond: `%s`",
       "emerald": "Emerald: `%s`",
-      "netherite": "Netherite: `%s`"
+      "netherite": "Netherite: `%s`",
+      "titanium": "Titanium: `%s`"
     },
     "rankcard": {
       "bg": {
@@ -579,6 +580,7 @@
       "selldiamond": "`%s` diamond selled for `%s` coins",
       "sellemerald": "`%s` emerald selled for `%s` coins",
       "sellnetherite": "`%s` netherite selled for `%s` coins",
+      "selltitanium": "`%s` titanium selled for `%s` coins",
       "allcoins": "Total coins received: `%s`"
     },
     "mopenbox": {
