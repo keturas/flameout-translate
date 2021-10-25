@@ -33,14 +33,15 @@
     "secretpage": "Secret page"
   },
   "command": {
-    "inde1": "(в разработке)",
+    "inde1": "(In developing)",
+    "translate": "Помочь с переводом",
     "pagelisting": "Use reactions to navigate the pages.",
     "dateformat1": " D [days], H [hours], m [minutes], s [seconds]",
     "dateformat2": " D [d], H [h], m [min], s [sec]",
     "nomanageserverrights": "you don't have `manage server` rights.",
     "nomanagemessagesrights": "you don't have `manage messages` rights.",
     "cooldown": "cooldown %s seconds.",
-    "halloween1": "С Хэллоуином!",
+    "halloween1": "Happy Halloween! Boo!!",
     "allresources": {
       "allresinbot": "Bot economy",
       "inbank": "In bank: `%s`",
@@ -61,33 +62,33 @@
     "photofilter": {
       "creating": "creating...",
       "nophoto": "you haven't attached a photo to your message.",
-      "noavatar": "у вас нет аватарки.",
-      "userdonthaveavatar": "у упоминаемого пользователя нет аватарки."
+      "noavatar": "you don't have avatar",
+      "userdonthaveavatar": "the mentioned user does not have an avatar."
     },
     "react": {
-      "adding": "🔄 | Добавляем реакции к вашему сообщению...",
-      "done": "✅ | Реакции успешно добавлены к вашему сообщению."
+      "adding": "🔄 | Adding reactions to your message...",
+      "done": "✅ | Reactions have been successfully added to your message."
     },
     "redguyinfo": {
-      "noid": "вы не указали айди пользователя пользователя https://account.redguy.ru.",
-      "firstname": "Имя: %s",
-      "lastname": "Фамилия: %s",
-      "nickname": "Ник: %s",
-      "userprofile": "Профиль пользователя",
-      "profileclosed": "Запрашиваемый профиль закрыт.",
-      "nouser": "Пользователь не найден."
+      "noid": "you have not specified the user ID of the user https://account.redguy.ru.",
+      "firstname": "Name: %s",
+      "lastname": "Surname: %s",
+      "nickname": "Nickname: %s",
+      "userprofile": "User profile",
+      "profileclosed": "The requested profile is closed.",
+      "nouser": "User not found."
     },
     "redguystats": {
-      "nonickname": "вы не указали **никнейм игрока** с сервера **RedGuy**.",
-      "userprofile": "Профиль игрока ****",
-      "money": "Монет: ",
-      "tokens": "Токенов: ",
-      "allkills": "Всего убийств: ",
-      "allwins": "Всего побед: "
+      "nonickname": "you have not specified **player nickname** from the server **RedGuy**.",
+      "userprofile": "Profile of **%s**",
+      "money": "Money: ",
+      "tokens": "Tokens: ",
+      "allkills": "Total kills: ",
+      "allwins": "Total wins: "
     },
     "rob": {
-      "cooldown": "кулдаун `30` минут.",
-      "nocooldown": "ты снова можешь грабить. Команда `%srob`",
+      "cooldown": "cooldown `30` minutes.",
+      "nocooldown": "you can rob again. Command `%srob`",
       "minimumlevel": "для грабежей нужен минимум `15` уровень.",
       "nomention": "упомяните того, кого хотите ограбить.",
       "robbing": "ты ищишь незапертые двери в доме, это займёт 5 минут.",
@@ -101,10 +102,10 @@
       "lost": "вы проиграли! Выпало число: %s\nСумма вычтена из баланса"
     },
     "sad": {
-      "usersad": "<@%s> грустит"
+      "usersad": "<@%s> sad"
     },
     "lay": {
-      "userlay": "<@%s> лежит"
+      "userlay": "<@%s> lay"
     },
     "school": {
       "cooldown": "перемена 30 минут.",
@@ -112,19 +113,19 @@
     },
     "serverinfo": {
       "verificationslevels": {
-        "none": "`Отсутствует`",
-        "low": "`Низкий`",
-        "medium": "`Средний`",
-        "high": "`Высокий`",
-        "veri_high": "`Самый высокий`"
+        "none": "`None`",
+        "low": "`Low`",
+        "medium": "`Medium`",
+        "high": "`High`",
+        "very_high": "`Very high`"
       },
       "infoofserver": "Информация о сервере",
-      "name": "Название: `%s`",
-      "unknown": "Неизвестно",
-      "owner": "Владелец: `%s`",
-      "description": "Описание: %s",
-      "members": "Участников: `%s / %s`",
-      "afkchannel": "AFK канал: %s",
+      "name": "Name: `%s`",
+      "unknown": "Unknown",
+      "owner": "Owner: `%s`",
+      "description": "Description: %s",
+      "members": "Members: `%s / %s`",
+      "afkchannel": "AFK channel: %s",
       "ruleschannel": "Канал с правилами: %s",
       "verificationlevel": "Уровень проверки: `%s`",
       "cointofroles": "Количество ролей: `%s`",
@@ -153,28 +154,27 @@
     },
     "short": {
       "nolink": "укажите ссылку которую хотите сократить.",
-      "error1": "Ошибка:",
+      "error1": "Error:",
       "error2": "пожалуйста, введите действительный URL-адрес."
     },
     "singing": {
-      "usersinging": "<@%s> поёт"
+      "usersinging": "<@%s> singing"
     },
     "sleep": {
-      "usersleep": "<@%s> спит"
+      "usersleep": "<@%s> sleep"
     },
     "thinks": {
-      "userthinks": "<@%s> думает"
+      "userthinks": "<@%s> thinks"
     },
     "waiting": {
-      "userwaiting": "<@%s> ждёт"
+      "userwaiting": "<@%s> waiting"
     },
     "snuseat": {
-      "nosnus": "у вас нет снюса.",
+      "nosnus": "you don't have snus",
       "eat": "Вы схавали снюс.",
       "exp": "`+35` опыта"
     },
     "uptime": {
-      "format": " D [дней], H [часов], m [минут], s [секунд]",
       "botuptime": "🕟 `%s` прошло с момента последнего запуска бота."
     },
     "setslowmode": {
@@ -517,6 +517,7 @@
       "developer": "Developer",
       "translator": "Translator",
       "birthday": "Birthday",
+      "golosovalshik": "Voter",
       "moderator": "Moderator",
       "donater": "Donater",
       "donated": "Donated `%s` rubles.",
@@ -524,13 +525,13 @@
       "exp": "Experience: `%s / %s`",
       "level": "Level: `%s ~ %s`",
       "bitcoins": "Bitcoins: `%s`",
-      "auctions": "Акции: `%s`",
+      "auctions": "Auctions: `%s`",
       "coins": "Coins: `%s`",
       "leafs": "Leaves: `%s`",
       "gifts": "Gifts: `%s`",
       "boxes": "Boxes: `%s`",
       "snus": "Snus: `%s`",
-      "pickaxe": "Кирка: `%s`",
+      "pickaxe": "Pickaxe: `%s`",
       "wood": "Wood: `%s`",
       "fish": "Fish: `%s`",
       "badges": "Badges:",
@@ -609,7 +610,7 @@
     "msnuseat": {
       "noArgs": "Вы не указали, сколько хотите скушать снюса.",
       "nedostatochnoSnusa": "ты пытаешься скушать столько снюса, сколько у тебя нет.",
-      "noSnus": "У тебя нет снюса.",
+      "noSnus": "You don't have snus",
       "eatSnus": "Съедание снюса",
       "eatSnusText": "Вы схавали снюс",
       "addExp": "`+%s` experience",
