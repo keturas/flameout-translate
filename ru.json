@@ -41,6 +41,7 @@
     "nomanageserverrights": "у тебя нет права на управление сервером.",
     "nomanagemessagesrights": "у тебя нет права на управление сообщениями.",
     "cooldown": "кулдаун %s секунд.",
+    "halloween1": "С Хэллоуином!",
     "allresources": {
       "allresinbot": "Всего ресурсов в боте",
       "inbank": "В банке: `%s`",
@@ -102,6 +103,9 @@
     },
     "sad": {
       "usersad": "<@%s> грустит"
+    },
+    "lay": {
+      "userlay": "<@%s> лежит"
     },
     "school": {
       "cooldown": "перемена 30 минут.",
@@ -454,6 +458,11 @@
     "hungry": {
       "userhungry": "%s голоден"
     },
+    "language": {
+      "title": "Изменение языка на сервере",
+      "nolanguage": "Вы не выбрали язык...",
+      "languagechanged": "Язык сервера успешно изменён"
+    },
     "hypixelstats": {
       "nonickname": "вы не указали `никнейм` игрока сервера хайпиксель.",
       "nope": "нету",
@@ -529,7 +538,7 @@
       "footerProfile": "Профиль: %s"
     },
     "resourceprofile": {
-      "resources": "Ресур`сы`",
+      "resources": "Ресурсы",
       "stone": "Камень: `%s`",
       "coal": "Уголь: `%s`",
       "iron": "Железо: `%s`",

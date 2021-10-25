@@ -40,6 +40,7 @@
     "nomanageserverrights": "you don't have `manage server` rights.",
     "nomanagemessagesrights": "you don't have `manage messages` rights.",
     "cooldown": "cooldown %s seconds.",
+    "halloween1": "С Хэллоуином!",
     "allresources": {
       "allresinbot": "Bot economy",
       "inbank": "In bank: `%s`",
@@ -101,6 +102,9 @@
     },
     "sad": {
       "usersad": "<@%s> грустит"
+    },
+    "lay": {
+      "userlay": "<@%s> лежит"
     },
     "school": {
       "cooldown": "перемена 30 минут.",
@@ -453,6 +457,11 @@
     },
     "hungry": {
       "userhungry": "%s hungry"
+    },
+    "language": {
+      "title": "Изменение языка на сервере",
+      "nolanguage": "Вы не выбрали язык...",
+      "languagechanged": "Язык сервера успешно изменён"
     },
     "hypixelstats": {
       "nonickname": "specify the player's nickname.",
