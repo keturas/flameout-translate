@@ -69,6 +69,10 @@
         "yes": "Да"
       }
     },
+    "amonguscode": {
+      "region": "Region: `%s`",
+      "code": "Code: `%s`"
+    },
     "allresources": {
       "allresinbot": "Bot economy",
       "inbank": "In bank: `%s`",
