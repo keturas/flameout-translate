@@ -42,6 +42,33 @@
     "nomanagemessagesrights": "you don't have `manage messages` rights.",
     "cooldown": "cooldown %s seconds.",
     "halloween1": "Happy Halloween! Boo!!",
+    "8ball": {
+      "noask": "вы не задали вопрос шару.",
+      "botanswer": "вы задали вопрос шару.\n🎱 Ответ шара: **%s**",
+      "answers": {
+        "itseemstomeyes": "Мне кажется — «да»",
+        "theprospectsarenotverygood": "Перспективы не очень хорошие",
+        "betternottotell": "Лучше не рассказывать",
+        "definitelyyes": "Определённо да",
+        "accordingtomyinformationno": "По моим данным — «нет»",
+        "goodprospects": "Хорошие перспективы",
+        "asklater": "Спроси позже",
+        "prescribed": "Предрешено",
+        "itisimpossibletopredictnow": "Сейчас нельзя предсказать",
+        "verydoubtful": "Весьма сомнительно",
+        "donoteventhink": "Даже не думай",
+        "mostlikely": "Вероятнее всего",
+        "youcanbesureofthis": "Можешь быть уверен в этом",
+        "undoubtedly": "Бесспорно",
+        "myanswerisno": "Мой ответ — «нет»",
+        "concentrateandaskagain": "Сконцентрируйся и спроси опять",
+        "itisnotclearyettryagain": "Пока не ясно, попробуй снова",
+        "notsure": "Не уверен",
+        "donotevendoubt": "Даже не сомневайся",
+        "unambiguously": "Однозначно",
+        "yes": "Да"
+      }
+    },
     "allresources": {
       "allresinbot": "Bot economy",
       "inbank": "In bank: `%s`",
