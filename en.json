@@ -126,6 +126,18 @@
       "uspeshno": "Ты успешно ограбил <@%s> и получил `%s` монет.",
       "neudachno": "вы нашли открытые двери в полицию... Попробуйте через `30` минут."
     },
+    "robsnus": {
+      "cooldown": "кулдаун `30` минут.",
+      "nocooldown": "ты снова можешь грабить. Команда `%srobsnus`",
+      "minimumlevel": "для грабежей снюса нужен минимум `10` уровень.",
+      "nomention": "вы не упомянули, у кого хотите украсть шайбу снюса.",
+      "victimnosnus1": "у него нет снюса.",
+      "victimnosnus2": "у него нет `%s` снюса :(",
+      "victimmessage": "Вас ограбил снюсоед <@%s> и он стырил у вас `%s` снюса.",
+      "hacking": "происходит взлом сейфа со снюсом, жди 5 минут.",
+      "uspeshno": "Вы успешно стырили `%s` снюса у <@%s>.",
+      "neudachno": "вы не смогли подобрать пароль к сейфу."
+    },
     "roulette": {
       "example": "Пример ввода: `%sroulette [чет/нечет/число] [ставка]`",
       "nomoney": "недостаточно средств",
@@ -419,6 +431,10 @@
       "disable": "Level up messages are disabled.",
       "enable": "Level up messages are enabled."
     },
+    "hiddeninleaders": {
+      "disable": "Теперь вы невидимы в списке лидеров",
+      "enable": "Теперь вы видимы в списке лидеров"
+    },
     "donate": {
       "donate": "Help the project",
       "flameoutpremiumza30rub": "`Forever` for `35` rubles",
@@ -545,6 +561,7 @@
       "premiumBuy": "bought",
       "premiumNoBuy": "not bought",
       "registered": "Зарегистрирован: %s",
+      "hideintop": "Видимость в %stop: `%s`",
       "developer": "Developer",
       "translator": "Translator",
       "birthday": "Birthday",
