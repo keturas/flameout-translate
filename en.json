@@ -15,11 +15,14 @@
     "PhotoFilters": "Photo filters",
     "VKontakte": "VK",
     "Other": "Other",
+    "Shop": "Магазин",
     "Devs": "Developers",
     "Updating": "Updating",
     "SiteOfBot": "Bot site",
     "Invite": "Invite me",
-    "clickHere": "Click here",
+    "Translate": "Translate bot",
+    "clickHere": "click here",
+    "clickHere2": "Click here",
     "executor": "Requested: %s",
     "onlynsfw": "this command can only be used in the NSFW channel.",
     "userdonthaveavatar": "%s don't have avatar...",
@@ -30,18 +33,26 @@
     "links": "Links",
     "version": "Bot version",
     "botCommands": "Bot commands",
-    "secretpage": "Secret page"
+    "secretpage": "Secret page",
+    "Iz": "%s из %s",
+    "gift": "Gift",
+    "box": "Box",
+    "snus": "Snus",
+    "wood": "Wood"
   },
   "command": {
-    "inde1": "(In developing)",
+    "indev1": "(в разработке)",
     "translate": "Помочь с переводом",
-    "pagelisting": "Use reactions to navigate the pages.",
-    "dateformat1": " D [days], H [hours], m [minutes], s [seconds]",
-    "dateformat2": " D [d], H [h], m [min], s [sec]",
-    "nomanageserverrights": "you don't have `manage server` rights.",
-    "nomanagemessagesrights": "you don't have `manage messages` rights.",
-    "cooldown": "cooldown %s seconds.",
-    "halloween1": "Happy Halloween! Boo!!",
+    "pagelisting": "Для перемещения по страницам используйте реакции.",
+    "dateformat1": " D [дней], H [часов], m [минут], s [секунд]",
+    "dateformat2": " D [д], H [ч], m [мин], s [сек]",
+    "nomanageserverrights": "у тебя нет права на управление сервером.",
+    "nomanagemessagesrights": "у тебя нет права на управление сообщениями.",
+    "botnomanagemessagesrights": "у бота нет права на управление сообщениями.",
+    "botnomanagechannelsrights": "у бота нет права на управление каналами.",
+    "cooldown": "кулдаун %s секунд.",
+    "halloween1": "С Хэллоуином!",
+    "nomoney1": "у вас не хватает монет.",
     "8ball": {
       "noask": "вы не задали вопрос шару.",
       "botanswer": "вы задали вопрос шару.\n🎱 Ответ шара: **%s**",
@@ -69,9 +80,22 @@
         "yes": "Да"
       }
     },
+    "say": {
+      "notext": "ты не написал, что хочешь написать от имени бота.",
+      "nopingeveryone": "я запрещаю пинговать всех :<"
+    },
     "amonguscode": {
       "region": "Region: `%s`",
       "code": "Code: `%s`"
+    },
+    "shop": {
+      "upgradingpickaxe": {
+        "upgradepickaxe": "Улучшить кирку",
+        "nomoneyforupgrade": "у вас не хватает монет для улучшения своей кирки.",
+        "maximumpickaxe": "у тебя максимальная кирка."
+      },
+      "buy": "Купить",
+      "sell": "Продать"
     },
     "allresources": {
       "allresinbot": "Bot economy",
@@ -88,7 +112,41 @@
       "fish": "Fish: `%s`"
     },
     "categorystats": {
-      "stats": "Category stats"
+      "stats": "Статистика категорий"
+    },
+    "textreverse": {
+      "notext": "вы не указали текст",
+      "done": "Вот, что у меня получилось."
+    },
+    "vimeworldgames": {
+      "name": "Название",
+      "title": "Игры на сервере **VimeWorld**"
+    },
+    "vimeworldonline": {
+      "players": {
+        "onlineonvimeworld": "Онлайн на сервере **VimeWorld**",
+        "allplayers": "Всего **`%s`** игроков на сервере.",
+        "onlineonservers": "Онлайн на режимах."
+      },
+      "moderators": {
+        "onlinemoderatorsonserver": "Онлайн модераторов на сервере **VimeWorld**.",
+        "allmoders": "Всего `%s` модераторов на сервере."
+      },
+      "streams": {
+        "platform": "Платформа: **`%s`**",
+        "name": "Название: **`%s`**",
+        "nickname": "Ник ютубера: **`%s`**",
+        "online": "Количество зрителей: **`%s`**",
+        "StreamStartedAt": "Стрим начался **`%s`** минут назад.",
+        "viewstream": "Смотреть стрим",
+        "streamsonserver": "Стрмиы на сервере **VimeWorld**",
+        "allstreams": "Всего `%s` стримов на сервере."
+      }
+    },
+    "try": {
+      "lucky": "- удачно",
+      "nolucky": "- неудачно",
+      "notext": "вы не указали текст"
     },
     "photofilter": {
       "creating": "creating...",
@@ -141,6 +199,8 @@
     "roulette": {
       "example": "Пример ввода: `%sroulette [чет/нечет/число] [ставка]`",
       "nomoney": "недостаточно средств",
+      "chet": "чёт",
+      "nechet": "нечёт",
       "win": "вы выиграли! Выпало число: %s\nСумма ставки удвоилась на 2",
       "lost": "вы проиграли! Выпало число: %s\nСумма вычтена из баланса"
     },
@@ -278,6 +338,15 @@
       "userdonthavefish": "you don't have `fish`.",
       "fishsell": "`%s` fish are sold for \"%s\" coins."
     },
+    "wood": {
+      "cooldown": "новое дерево ещё не выросло.",
+      "minimumlevel": "для рубки дерева нужен минимум `10` уровень.",
+      "woodgo": "Вы срубили дерево и получили:"
+    },
+    "woodsell": {
+      "userdonthavewood": "you don't have `wood`",
+      "woodsell": "`%s` wood are sold for `%s` coins."
+    },
     "leafsell": {
       "userdonthaveleaf": "you don't have `leafs`.",
       "leafsell": "`%s` leafs are sold for `%s` coins."
@@ -296,9 +365,10 @@
       "emojis": "Emojis",
       "shards": "Shards",
       "botcreated": "Bot created",
-      "commandsstats": "Commands stats",
+      "stats": "Stats",
       "botcommands": "Bot commands",
-      "prefixofserver": "Prefix of server"
+      "localization": "Переведено команд",
+      "inserver": "Prefix of server"
     },
     "animals": {
       "randomcat": "Random cat",
@@ -398,9 +468,9 @@
       "usereating": "%s eating."
     },
     "event": {
-      "userget": "You have already received gifts for the event. The last event was <t:1633824000:R>.",
-      "getresources": "Day of Teacher in Russiar! Catch `%s` gifts!",
-      "noevent": "there are no events scheduled for this month yet. The last event was <t:1633824000:R>."
+      "userget": "You have already received gifts for the event. The last event was <t:незапланированно:R>.",
+      "getresources": "Happy Halloween! Boo! Catch `%s` gifts!",
+      "noevent": "there are no events scheduled for this month yet. The last event was <t:незапланированно:R>."
     },
     "cointree": {
       "cointree": "Money tree",
@@ -437,8 +507,8 @@
     },
     "donate": {
       "donate": "Help the project",
-      "flameoutpremiumza30rub": "`Forever` for `35` rubles",
-      "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%scointree`, `%smopenbox`\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n💳 Pension | x2 coins in pension!\n⛏️ Mine | Titanium pickaxe\n📦 CBT | Access to closed beta tests."
+      "flameoutpremiumza30rub": "`Forever` for `40` rubles",
+      "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%scointree`, `%smopenbox`\n👀 Скрытие из топа | Команда, которая скроет вас из топа\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n💳 Pension | x2 coins in pension!\n⛏️ Mine | Titanium pickaxe\n📦 CBT | Access to closed beta tests."
     },
     "gift": {
       "opengift": "Open gift",
@@ -543,7 +613,7 @@
       "job": "For your work as a janitor, you received `500` coins.\n🍂 Leaves collected: `%s`"
     },
     "help": {
-      "support": "You can support the project with the\ncommand",
+      "support": "You can support the project\nwith the command",
       "info": "Some information about the\nbot by the command",
       "oldMenu": "Old menu",
       "bug": "If you found bug",
@@ -615,7 +685,6 @@
         "wolf": "📘 Auf!\n🗓️ Date added: 09/01/21 3:36 AM",
         "stones": "📘Just stones.\n🗓️ Date added: 09/01/21 3:40 AM"
       },
-      "pagelisting": "Use reactions to navigate the pages.",
       "nobg": "<@%s> you have not chosen which background you want to install.",
       "bgchanged": "The background has been successfully set.",
       "level": "Level: %s ~ %s",
@@ -624,6 +693,9 @@
     "quote": {
       "error": "something went wrong... Error:",
       "error2": "something went wrong..."
+    },
+    "whennewyear": {
+      "whennewyear": "До нового года осталось `%s`!"
     },
     "minesell": {
       "noresources": "have you heard about **%smine**?",
@@ -634,6 +706,7 @@
       "selllapis": "`%s` lapis selled for `%s` coins",
       "sellgold": "`%s` gold selled for `%s` coins",
       "sellcopper": "`%s` copper selled for `%s` coins",
+      "sellquartz": "`%s` кварца продано за `%s` монет.",
       "sellredstone": "`%s` redstone selled for `%s` coins",
       "selldiamond": "`%s` diamond selled for `%s` coins",
       "sellemerald": "`%s` emerald selled for `%s` coins",
