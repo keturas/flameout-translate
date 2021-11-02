@@ -35,10 +35,10 @@
     "botCommands": "Bot commands",
     "secretpage": "Secret page",
     "Iz": "%s из %s",
-    "gift": "Gift",
-    "box": "Box",
-    "snus": "Snus",
-    "wood": "Wood"
+    "Gift": "Gift",
+    "Box": "Box",
+    "Snus": "Snus",
+    "Wood": "Wood"
   },
   "command": {
     "indev1": "(в разработке)",
@@ -215,12 +215,12 @@
       "school": "🏫 Школа - самое опасное место на\nземле. Но пока-что всё хорошо... Вы\nполучили `350` опыта. Перемена\nтридцать минут."
     },
     "serverinfo": {
-      "verificationslevels": {
-        "none": "`None`",
-        "low": "`Low`",
-        "medium": "`Medium`",
-        "high": "`High`",
-        "very_high": "`Very high`"
+      "verificationLevels": {
+        "none": "None",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "very_high": "Very high"
       },
       "infoofserver": "Информация о сервере",
       "name": "Name: `%s`",
@@ -253,6 +253,8 @@
     },
     "setprefix": {
       "noprefix": "specify the prefix you want to set.",
+      "nomentioninprefix": "в префиксе не должно быть упоминаний",
+      "nochannelmentioninprefix": "в префиксе не должно быть упоминаний каналов",
       "setprefix": "now on this server the prefix is - `%s`"
     },
     "short": {
