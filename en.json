@@ -34,11 +34,22 @@
     "version": "Bot version",
     "botCommands": "Bot commands",
     "secretpage": "Secret page",
-    "Iz": "%s из %s",
+    "Iz": "%s of %s",
     "Gift": "Gift",
     "Box": "Box",
     "Snus": "Snus",
-    "Wood": "Wood"
+    "Wood": "Wood",
+    "Hidden": "hidden",
+    "NotHidden": "nothidden",
+    "tools": {
+      "wooden": "wooden",
+      "stone": "stone",
+      "iron": "iron",
+      "gold": "gold",
+      "diamond": "diamond",
+      "netherite": "netherite",
+      "titanium": "titanium"
+    }
   },
   "command": {
     "indev1": "(в разработке)",
