@@ -52,27 +52,27 @@
     }
   },
   "command": {
-    "indev1": "(в разработке)",
-    "translate": "Помочь с переводом",
-    "pagelisting": "Для перемещения по страницам используйте реакции.",
-    "dateformat1": " D [дней], H [часов], m [минут], s [секунд]",
-    "dateformat2": " D [д], H [ч], m [мин], s [сек]",
+    "indev1": "(in developing)",
+    "translate": "Help with translation",
+    "pagelisting": "Use reactions to navigate the pages.",
+    "dateformat1": " D [days], H [hours], m [minutes], s [seconds]",
+    "dateformat2": " D [d], H [h], m [min], s [sec]",
     "nomanageserverrights": "у тебя нет права на управление сервером.",
     "nomanagemessagesrights": "у тебя нет права на управление сообщениями.",
     "botnomanagemessagesrights": "у бота нет права на управление сообщениями.",
     "botnomanagechannelsrights": "у бота нет права на управление каналами.",
-    "cooldown": "кулдаун %s секунд.",
-    "halloween1": "С Хэллоуином!",
-    "nomoney1": "у вас не хватает монет.",
+    "cooldown": "cooldown! %s seconds.",
+    "halloween1": "Happy Halloween! Boo!",
+    "nomoney1": "you do not have enough coins.",
     "8ball": {
       "noask": "вы не задали вопрос шару.",
       "botanswer": "вы задали вопрос шару.\n🎱 Ответ шара: **%s**",
       "answers": {
-        "itseemstomeyes": "Мне кажется — «да»",
+        "itseemstomeyes": "Мне кажется — «yes»",
         "theprospectsarenotverygood": "Перспективы не очень хорошие",
         "betternottotell": "Лучше не рассказывать",
         "definitelyyes": "Определённо да",
-        "accordingtomyinformationno": "По моим данным — «нет»",
+        "accordingtomyinformationno": "По моим данным — «no»",
         "goodprospects": "Хорошие перспективы",
         "asklater": "Спроси позже",
         "prescribed": "Предрешено",
@@ -82,18 +82,18 @@
         "mostlikely": "Вероятнее всего",
         "youcanbesureofthis": "Можешь быть уверен в этом",
         "undoubtedly": "Бесспорно",
-        "myanswerisno": "Мой ответ — «нет»",
+        "myanswerisno": "Мой ответ — «no»",
         "concentrateandaskagain": "Сконцентрируйся и спроси опять",
         "itisnotclearyettryagain": "Пока не ясно, попробуй снова",
         "notsure": "Не уверен",
         "donotevendoubt": "Даже не сомневайся",
         "unambiguously": "Однозначно",
-        "yes": "Да"
+        "yes": "Yes"
       }
     },
     "say": {
-      "notext": "ты не написал, что хочешь написать от имени бота.",
-      "nopingeveryone": "я запрещаю пинговать всех :<"
+      "notext": "you did not write what you want to write on behalf of the bot.",
+      "nopingeveryone": "you can't ping everyone :<"
     },
     "amonguscode": {
       "region": "Region: `%s`",
@@ -101,12 +101,12 @@
     },
     "shop": {
       "upgradingpickaxe": {
-        "upgradepickaxe": "Улучшить кирку",
-        "nomoneyforupgrade": "у вас не хватает монет для улучшения своей кирки.",
-        "maximumpickaxe": "у тебя максимальная кирка."
+        "upgradepickaxe": "Upgrade pickaxe",
+        "nomoneyforupgrade": "you don't have enough coins to upgrade your pickaxe.",
+        "maximumpickaxe": "you have the maximum pick."
       },
-      "buy": "Купить",
-      "sell": "Продать"
+      "buy": "Buy",
+      "sell": "Sell"
     },
     "allresources": {
       "allresinbot": "Bot economy",
@@ -123,41 +123,41 @@
       "fish": "Fish: `%s`"
     },
     "categorystats": {
-      "stats": "Статистика категорий"
+      "stats": "Category statistics"
     },
     "textreverse": {
-      "notext": "вы не указали текст",
-      "done": "Вот, что у меня получилось."
+      "notext": "you have not specified the text",
+      "done": "That's what I did."
     },
     "vimeworldgames": {
-      "name": "Название",
-      "title": "Игры на сервере **VimeWorld**"
+      "name": "Name",
+      "title": "Games on **VimeWorld**"
     },
     "vimeworldonline": {
       "players": {
-        "onlineonvimeworld": "Онлайн на сервере **VimeWorld**",
-        "allplayers": "Всего **`%s`** игроков на сервере.",
-        "onlineonservers": "Онлайн на режимах."
+        "onlineonvimeworld": "Online on **VimeWorld**",
+        "allplayers": "Total **`%s`** players on the server.",
+        "onlineonservers": "Online in modes."
       },
       "moderators": {
-        "onlinemoderatorsonserver": "Онлайн модераторов на сервере **VimeWorld**.",
-        "allmoders": "Всего `%s` модераторов на сервере."
+        "onlinemoderatorsonserver": "Online moderators on the **VimeWorld** server.",
+        "allmoders": "There are only `%s` moderators on the server."
       },
       "streams": {
-        "platform": "Платформа: **`%s`**",
-        "name": "Название: **`%s`**",
-        "nickname": "Ник ютубера: **`%s`**",
-        "online": "Количество зрителей: **`%s`**",
-        "StreamStartedAt": "Стрим начался **`%s`** минут назад.",
-        "viewstream": "Смотреть стрим",
-        "streamsonserver": "Стрмиы на сервере **VimeWorld**",
-        "allstreams": "Всего `%s` стримов на сервере."
+        "platform": "Platform: **`%s`**",
+        "name": "Name: **`%s`**",
+        "nickname": "Nickname of YT: **`%s`**",
+        "online": "Online: **`%s`**",
+        "StreamStartedAt": "Stream started **`%s`** minutes back.",
+        "viewstream": "View stream",
+        "streamsonserver": "Streams on **VimeWorld**",
+        "allstreams": "There are only `%s` streams on the server."
       }
     },
     "try": {
-      "lucky": "- удачно",
-      "nolucky": "- неудачно",
-      "notext": "вы не указали текст"
+      "lucky": "- fortunately",
+      "nolucky": "- unsuccessfully",
+      "notext": "you have not specified the text"
     },
     "photofilter": {
       "creating": "creating...",
@@ -189,31 +189,31 @@
     "rob": {
       "cooldown": "cooldown `30` minutes.",
       "nocooldown": "you can rob again. Command `%srob`",
-      "minimumlevel": "для грабежей нужен минимум `15` уровень.",
-      "nomention": "упомяните того, кого хотите ограбить.",
-      "robbing": "ты ищишь незапертые двери в доме, это займёт 5 минут.",
-      "uspeshno": "Ты успешно ограбил <@%s> и получил `%s` монет.",
-      "neudachno": "вы нашли открытые двери в полицию... Попробуйте через `30` минут."
+      "minimumlevel": "for robberies you need at least level 15.",
+      "nomention": "mention the person you want to rob.",
+      "robbing": "you are looking for unlocked doors in the house, it will take 5 minutes.",
+      "uspeshno": "You have successfully robbed <@%s> and obtained `%s` coins.",
+      "neudachno": "you found open doors to the police... Try it in `30` minutes."
     },
     "robsnus": {
-      "cooldown": "кулдаун `30` минут.",
-      "nocooldown": "ты снова можешь грабить. Команда `%srobsnus`",
-      "minimumlevel": "для грабежей снюса нужен минимум `10` уровень.",
-      "nomention": "вы не упомянули, у кого хотите украсть шайбу снюса.",
-      "victimnosnus1": "у него нет снюса.",
-      "victimnosnus2": "у него нет `%s` снюса :(",
-      "victimmessage": "Вас ограбил снюсоед <@%s> и он стырил у вас `%s` снюса.",
-      "hacking": "происходит взлом сейфа со снюсом, жди 5 минут.",
-      "uspeshno": "Вы успешно стырили `%s` снюса у <@%s>.",
-      "neudachno": "вы не смогли подобрать пароль к сейфу."
+      "cooldown": "cooldown! `30` minutes.",
+      "nocooldown": "you can rob again. Command `%srobsnus`",
+      "minimumlevel": "for snus robberies you need at least `10` level.",
+      "nomention": "you didn't mention who you want to steal the snus puck from.",
+      "victimnosnus1": "he doesn't have snus.",
+      "victimnosnus2": "he doesn't have %s snus :(",
+      "victimmessage": "You were robbed by the snus-eater <@%s> and he stole the `%s` of snus from you.",
+      "hacking": "the safe with snus is hacked, wait 5 minutes.",
+      "uspeshno": "You have successfully stolen `%s` snus from <@%s>.",
+      "neudachno": "you could not guess the password to the safe."
     },
     "roulette": {
-      "example": "Пример ввода: `%sroulette [чет/нечет/число] [ставка]`",
-      "nomoney": "недостаточно средств",
-      "chet": "чёт",
-      "nechet": "нечёт",
-      "win": "вы выиграли! Выпало число: %s\nСумма ставки удвоилась на 2",
-      "lost": "вы проиграли! Выпало число: %s\nСумма вычтена из баланса"
+      "example": "Input example: `%sroulette [чет/нечет/число] [bid]`",
+      "nomoney": "insufficient funds",
+      "chet": "even",
+      "nechet": "odd",
+      "win": "you won! Number dropped: %s\nThe bet amount doubled by 2",
+      "lost": "you lose! Number dropped: %s\nAmount deducted from balance"
     },
     "sad": {
       "usersad": "<@%s> sad"
@@ -222,8 +222,8 @@
       "userlay": "<@%s> lay"
     },
     "school": {
-      "cooldown": "перемена 30 минут.",
-      "school": "🏫 Школа - самое опасное место на\nземле. Но пока-что всё хорошо... Вы\nполучили `350` опыта. Перемена\nтридцать минут."
+      "cooldown": "break for 30 minutes.",
+      "school": "🏫 School is the most dangerous place on \nearth. But so far, so good ... You \nnreached `350` experience. Break \nnthirty minutes."
     },
     "serverinfo": {
       "verificationLevels": {
@@ -233,19 +233,19 @@
         "high": "High",
         "very_high": "Very high"
       },
-      "infoofserver": "Информация о сервере",
+      "infoofserver": "Information of server",
       "name": "Name: `%s`",
       "unknown": "Unknown",
       "owner": "Owner: `%s`",
       "description": "Description: %s",
       "members": "Members: `%s / %s`",
       "afkchannel": "AFK channel: %s",
-      "ruleschannel": "Канал с правилами: %s",
-      "verificationlevel": "Уровень проверки: `%s`",
-      "cointofroles": "Количество ролей: `%s`",
-      "cointofemojis": "Количество эмодзи: `%s`",
-      "cointofboosts": "Количество бустов: `%s`",
-      "servercreated": "Сервер создан %s"
+      "ruleschannel": "Rules channel: %s",
+      "verificationlevel": "Verification level: `%s`",
+      "cointofroles": "Number of roles: `%s`",
+      "cointofemojis": "Number of emojis: `%s`",
+      "cointofboosts": "Number of boosts: `%s`",
+      "servercreated": "Server created at %s"
     },
     "perms": {
       "nouser": "you don't mention user.",
@@ -264,14 +264,14 @@
     },
     "setprefix": {
       "noprefix": "specify the prefix you want to set.",
-      "nomentioninprefix": "в префиксе не должно быть упоминаний",
-      "nochannelmentioninprefix": "в префиксе не должно быть упоминаний каналов",
+      "nomentioninprefix": "there should be no mentions in the prefix",
+      "nochannelmentioninprefix": "there should be no channel references in the prefix",
       "setprefix": "now on this server the prefix is - `%s`"
     },
     "short": {
-      "nolink": "укажите ссылку которую хотите сократить.",
+      "nolink": "you have not specified which link you want to shorten",
       "error1": "Error:",
-      "error2": "пожалуйста, введите действительный URL-адрес."
+      "error2": "you entered an incorrect link"
     },
     "singing": {
       "usersinging": "<@%s> singing"
@@ -287,14 +287,14 @@
     },
     "snuseat": {
       "nosnus": "you don't have snus",
-      "eat": "Вы схавали снюс.",
-      "exp": "`+35` опыта"
+      "eat": "You eat snus",
+      "exp": "`+35` experience"
     },
     "uptime": {
-      "botuptime": "🕟 `%s` прошло с момента последнего запуска бота."
+      "botuptime": "🕟 `%s` have passed since the last launch of the bot."
     },
     "setslowmode": {
-      "BotNotHaveRightsToManageChannels": "бот не имеет прав на управление каналом.",
+      "BotNotHaveRightsToManageChannels": "the bot does not have rights to manage the channel.",
       "noslowmode": "specify the time for the slowmode, for example `5`. To disable, specify `-`",
       "limit": "maximum slowmode time is `26000` seconds (6 hours)",
       "changed": "changed: %s",
@@ -352,9 +352,9 @@
       "fishsell": "`%s` fish are sold for \"%s\" coins."
     },
     "wood": {
-      "cooldown": "новое дерево ещё не выросло.",
-      "minimumlevel": "для рубки дерева нужен минимум `10` уровень.",
-      "woodgo": "Вы срубили дерево и получили:"
+      "cooldown": "the new tree has not yet grown.",
+      "minimumlevel": "to cut a tree you need a minimum level `10`.",
+      "woodgo": "You chopped down a tree and got:"
     },
     "woodsell": {
       "userdonthavewood": "you don't have `wood`",
@@ -380,7 +380,7 @@
       "botcreated": "Bot created",
       "stats": "Stats",
       "botcommands": "Bot commands",
-      "localization": "Переведено команд",
+      "localization": "Translated commands",
       "inserver": "Prefix of server"
     },
     "animals": {
@@ -489,7 +489,7 @@
       "cointree": "Money tree",
       "info": "It's money tree!\nThe number of coins received\ndepends on your level. For\n`1` level `%s` coins.",
       "newmoneytime": "New coins will appear in `1` hour.",
-      "zarabotok": "Ваш заработок: `%s`",
+      "zarabotok": "Your earnings: `%s`",
       "newmoney": "New coins have appeared! Use `%s`",
       "givemoney": "You got `%s` coins from the money tree."
     },
@@ -515,8 +515,8 @@
       "enable": "Level up messages are enabled."
     },
     "hiddeninleaders": {
-      "disable": "Теперь вы невидимы в списке лидеров",
-      "enable": "Теперь вы видимы в списке лидеров"
+      "disable": "You are now invisible on the leaderboard",
+      "enable": "You are now visible on the leaderboard"
     },
     "donate": {
       "donate": "Help the project",
@@ -589,9 +589,9 @@
       "userhungry": "%s hungry"
     },
     "language": {
-      "title": "Изменение языка на сервере",
-      "nolanguage": "Вы не выбрали язык...",
-      "languagechanged": "Язык сервера успешно изменён"
+      "title": "Changing the language on the server",
+      "nolanguage": "You have not chosen a language...",
+      "languagechanged": "Server language changed successfully"
     },
     "hypixelstats": {
       "nonickname": "specify the player's nickname.",
@@ -643,8 +643,8 @@
     "profile": {
       "premiumBuy": "bought",
       "premiumNoBuy": "not bought",
-      "registered": "Зарегистрирован: %s",
-      "hideintop": "Видимость в %stop: `%s`",
+      "registered": "Registered: %s",
+      "hideintop": "Visibility in %stop: `%s`",
       "developer": "Developer",
       "translator": "Translator",
       "birthday": "Birthday",
@@ -708,7 +708,7 @@
       "error2": "something went wrong..."
     },
     "whennewyear": {
-      "whennewyear": "До нового года осталось `%s`!"
+      "whennewyear": "Until the new year is left `%s`!"
     },
     "minesell": {
       "noresources": "have you heard about **%smine**?",
@@ -742,13 +742,13 @@
       "snusfrombox": "Dropped `%s` of snus."
     },
     "msnuseat": {
-      "noArgs": "Вы не указали, сколько хотите скушать снюса.",
-      "nedostatochnoSnusa": "ты пытаешься скушать столько снюса, сколько у тебя нет.",
+      "noArgs": "You haven't specified how much snus you want to eat.",
+      "nedostatochnoSnusa": "you try to eat as much snus as you don't have.",
       "noSnus": "You don't have snus",
-      "eatSnus": "Съедание снюса",
-      "eatSnusText": "Вы схавали снюс",
+      "eatSnus": "Eating snus",
+      "eatSnusText": "You eat snus",
       "addExp": "`+%s` experience",
-      "haveSnus": "У вас осталось ещё `%s` снюса."
+      "haveSnus": "You still have snus `%s` left."
     },
     "openbox": {
       "openbox": "Opening box"
