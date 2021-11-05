@@ -42,13 +42,24 @@
     "Hidden": "hidden",
     "NotHidden": "nothidden",
     "tools": {
-      "wooden": "wooden",
-      "stone": "stone",
-      "iron": "iron",
-      "gold": "gold",
-      "diamond": "diamond",
-      "netherite": "netherite",
-      "titanium": "titanium"
+      "pickaxe": {
+        "wooden": "wooden",
+        "stone": "stone",
+        "iron": "iron",
+        "gold": "gold",
+        "diamond": "diamond",
+        "netherite": "netherite",
+        "titanium": "titanium"
+      },
+      "axe": {
+        "wooden": "wooden",
+        "stone": "stone",
+        "iron": "iron",
+        "gold": "gold",
+        "diamond": "diamond",
+        "netherite": "netherite",
+        "titanium": "titanium"
+      }
     }
   },
   "command": {
@@ -104,6 +115,11 @@
         "upgradepickaxe": "Upgrade pickaxe",
         "nomoneyforupgrade": "you don't have enough coins to upgrade your pickaxe.",
         "maximumpickaxe": "you have the maximum pick."
+      },
+      "upgradingaxe": {
+        "upgradeaxe": "Upgrade axe",
+        "nomoneyforupgrade": "у вас не хватает монет для улучшения своего топора.",
+        "maximumaxe": "you have the maximum axe."
       },
       "buy": "Buy",
       "sell": "Sell"
@@ -210,6 +226,7 @@
     "roulette": {
       "example": "Input example: `%sroulette [чет/нечет/число] [bid]`",
       "nomoney": "insufficient funds",
+      "maxstavka": "максимальная ставка `%s` монет.",
       "chet": "even",
       "nechet": "odd",
       "win": "you won! Number dropped: %s\nThe bet amount doubled by 2",
@@ -495,7 +512,7 @@
     },
     "leaders": {
       "leaders": "Leaders",
-      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Boxes\n - `leafs` | Leaf\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles",
+      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Boxes\n - `leafs` | Leaf\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles\n - `languages` | Топ по языкам",
       "nousers": "**At the moment, the top is empty.**",
       "leadersofexp": "Leaders of experience",
       "leadersofcoins": "Leaders of coins",
@@ -508,7 +525,8 @@
       "leadersofboxes": "Leaders of boxes",
       "leadersofsnus": "Leaders of snus",
       "leadersofsnake": "Leaders of snake",
-      "leadersofvotes": "Leaders of votes"
+      "leadersofvotes": "Leaders of votes",
+      "languagesleaders": "Топ по языкам использующих сервера"
     },
     "levelup": {
       "disable": "Level up messages are disabled.",
@@ -521,7 +539,7 @@
     "donate": {
       "donate": "Help the project",
       "flameoutpremiumza30rub": "`Forever` for `40` rubles",
-      "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%scointree`, `%smopenbox`\n👀 Скрытие из топа | Команда, которая скроет вас из топа\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n💳 Pension | x2 coins in pension!\n⛏️ Mine | Titanium pickaxe\n📦 CBT | Access to closed beta tests."
+      "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%smopenbox`\n👀 Скрытие из топа | Команда, которая скроет вас из топа\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n🎰 Roulette | The maximum bet is `60,000` coins.\n📦 CBT | Access to closed beta tests.\n🌳 Money tree | More coins\n💳 Pension | x2 coins in pension!\n⛏️ Mine | Titanium pickaxe"
     },
     "gift": {
       "opengift": "Open gift",
@@ -663,6 +681,7 @@
       "boxes": "Boxes: `%s`",
       "snus": "Snus: `%s`",
       "pickaxe": "Pickaxe: `%s`",
+      "axe": "Топор: `%s`",
       "wood": "Wood: `%s`",
       "fish": "Fish: `%s`",
       "badges": "Badges:",
@@ -719,7 +738,7 @@
       "selllapis": "`%s` lapis selled for `%s` coins",
       "sellgold": "`%s` gold selled for `%s` coins",
       "sellcopper": "`%s` copper selled for `%s` coins",
-      "sellquartz": "`%s` кварца продано за `%s` монет.",
+      "sellquartz": "`%s` quartz selled for `%s` coins.",
       "sellredstone": "`%s` redstone selled for `%s` coins",
       "selldiamond": "`%s` diamond selled for `%s` coins",
       "sellemerald": "`%s` emerald selled for `%s` coins",
