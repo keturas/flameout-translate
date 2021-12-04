@@ -15,7 +15,7 @@
     "PhotoFilters": "Photo filters",
     "VKontakte": "VK",
     "Other": "Other",
-    "Shop": "Магазин",
+    "Shop": "Shop",
     "Devs": "Developers",
     "Updating": "Updating",
     "SiteOfBot": "Bot site",
@@ -40,7 +40,7 @@
     "Snus": "Snus",
     "Wood": "Wood",
     "Hidden": "hidden",
-    "NotHidden": "nothidden",
+    "NotHidden": "not hidden",
     "tools": {
       "pickaxe": {
         "wooden": "wooden",
@@ -87,7 +87,7 @@
         "itseemstomeyes": "Мне кажется — «yes»",
         "theprospectsarenotverygood": "Перспективы не очень хорошие",
         "betternottotell": "Лучше не рассказывать",
-        "definitelyyes": "Определённо да",
+        "definitelyyes": "Определённо yes",
         "accordingtomyinformationno": "По моим данным — «no»",
         "goodprospects": "Хорошие перспективы",
         "asklater": "Спроси позже",
@@ -503,9 +503,9 @@
       "usereating": "%s eating."
     },
     "event": {
-      "userget": "You have already received boxes for the event. The last event was <t:1638316800:R>.",
+      "userget": "You have already received boxes for the event. The last event was <t:1640390400:R>.",
       "getresources": "Happy New Year! Catch `%s` boxes and badge in profile!",
-      "noevent": "there are no events scheduled for this month yet. The last event was <t:1638316800:R>."
+      "noevent": "there are no events scheduled for this month yet. The last event was <t:1640390400:R>."
     },
     "cointree": {
       "cointree": "Money tree",
@@ -543,7 +543,7 @@
     },
     "donate": {
       "donate": "Help the project",
-      "flameoutpremiumza30rub": "`Forever` for `40` rubles",
+      "flameoutpremium": "`Forever` for `40` rubles",
       "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%smopenbox`\n👀 Скрытие из топа | Команда, которая скроет вас из топа\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n🎰 Roulette | The maximum bet is `60,000` coins.\n💾 Тег | Персональный тег в телеграм чате\n📦 CBT | Access to closed beta tests.\n🌳 Money tree | More coins\n💳 Pension | x2 coins in pension!\n⛏️ Mine | Titanium pickaxe\n🪓 Lumberjack | Titanium axe"
     },
     "gift": {
@@ -685,6 +685,7 @@
       "gifts": "Gifts: `%s`",
       "boxes": "Boxes: `%s`",
       "snus": "Snus: `%s`",
+      "snakescore": "Record in snake: `%s`",
       "pickaxe": "Pickaxe: `%s`",
       "axe": "Топор: `%s`",
       "wood": "Wood: `%s`",
