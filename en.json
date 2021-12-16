@@ -239,7 +239,7 @@
       "chet": "even",
       "nechet": "odd",
       "win": "you won! Number dropped: `%s`\nThe bet amount doubled by 2",
-      "lost": "you lose! Number dropped:` %s`\nThe bet amount deducted from balance"
+      "lost": "you lose! Number dropped: `%s`\nThe bet amount deducted from balance"
     },
     "sad": {
       "usersad": "<@%s> sad"
