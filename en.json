@@ -271,7 +271,8 @@
       "cointofroles": "Number of roles: `%s`",
       "cointofemojis": "Number of emojis: `%s`",
       "cointofboosts": "Number of boosts: `%s`",
-      "servercreated": "Server created at %s"
+      "servercreated": "Server created at %s",
+      "idofserver": "Server id: %s"
     },
     "perms": {
       "nouser": "you don't mention user.",
