@@ -226,7 +226,7 @@
       "minimumlevel": "for snus robberies you need at least `10` level.",
       "nomention": "you didn't mention who you want to steal the snus puck from.",
       "victimnosnus1": "he doesn't have snus.",
-      "victimnosnus2": "he doesn't have %s snus :(",
+      "victimnosnus2": "he doesn't have `%s` snus :(",
       "victimmessage": "You were robbed by the snus-eater <@%s> and he stole the `%s` of snus from you.",
       "hacking": "the safe with snus is hacked, wait 5 minutes.",
       "uspeshno": "You have successfully stolen `%s` snus from <@%s>.",
@@ -235,11 +235,11 @@
     "roulette": {
       "example": "Input example: `%sroulette [чет/нечет/число] [bid]`",
       "nomoney": "insufficient funds",
-      "maxstavka": "maximum bet of `%s' coins.",
+      "maxstavka": "maximum bet of `%s` coins.",
       "chet": "even",
       "nechet": "odd",
-      "win": "you won! Number dropped: %s\nThe bet amount doubled by 2",
-      "lost": "you lose! Number dropped: %s\nThe bet amount deducted from balance"
+      "win": "you won! Number dropped: `%s`\nThe bet amount doubled by 2",
+      "lost": "you lose! Number dropped:` %s`\nThe bet amount deducted from balance"
     },
     "sad": {
       "usersad": "<@%s> sad"
