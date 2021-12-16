@@ -356,9 +356,9 @@
     "card": {
       "changecardnumber": "Change card number",
       "userhavebankcard": "<@%s>, you already have a bank card.",
-      "newnumberofcard": "The future number of your card is '%s`, are you ready to buy it for `%s' coins?",
-      "nohavemoney": "you don't have enough money to buy a bank card, you need `%s' coins.",
-      "buycard": "you bought the card for '%s' coins! Your bank card number: '%s`",
+      "newnumberofcard": "The future number of your card is '%s`, are you ready to buy it for `%s` coins?",
+      "nohavemoney": "you don't have enough money to buy a bank card, you need `%s` coins.",
+      "buycard": "you bought the card for '%s` coins! Your bank card number: '%s`",
       "nocard": "<@%s>, you don't have a bank card, which contract do you want to terminate?",
       "nohavemoneyforremovecontract": "<@%s>, you don't have enough money to terminate the contract with the bank, you need `%s` coins.",
       "successremovecontract": "You have terminated the contract with the bank...",
