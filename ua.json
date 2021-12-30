@@ -271,7 +271,8 @@
       "cointofroles": "Кількість ролей: `%s`",
       "cointofemojis": "Кількість емодзі: `%s`",
       "cointofboosts": "Кількість бустів: `%s`",
-      "servercreated": "Сервер створено %s"
+      "servercreated": "Сервер створено %s",
+      "idofserver": "Айді сервера: %s"
     },
     "perms": {
       "nouser": "згадай користувача.",
