@@ -41,6 +41,9 @@
     "Wood": "Wood",
     "Hidden": "hidden",
     "NotHidden": "not hidden",
+    "Yandex1": "Yandex",
+    "Yandex2": "yandex",
+    "GitHub1": "GitHub",
     "tools": {
       "pickaxe": {
         "wooden": "wooden",
@@ -279,7 +282,7 @@
       "userperms": "The rights of the said participant"
     },
     "ping": {
-      "pong": "Pong, i'm working!\n🏓 Latency: `%s` ms\n🏓 API Latency: `%s` ms"
+      "pong": "Pong, i'm working!\n🏓 API Latency: `%s` ms"
     },
     "ban": {
       "BotNotHaveRightsToManageChannels": "bot don't have `Manage channels` rights.",
@@ -563,7 +566,7 @@
     },
     "donate": {
       "donate": "Help the project",
-      "flameoutpremium": "`Forever` for `25` russian rubles",
+      "flameoutpremium": "`Forever` for `40` russian rubles",
       "dostup": "🎁 Commands | `%smgift`, `%smsnuseat`, `%sbankhack`, `%smopenbox`\n👀 Скрытие из топа | Команда, которая скроет вас из топа\n🆕 Items | Getting new items after the release.\n🎲 Cube | The maximum bet is `30,000` coins.\n🎰 Roulette | The maximum bet is `60,000` coins.\n💾 Тег | Персональный тег в телеграм чате\n📦 CBT | Access to closed beta tests.\n🌳 Money tree | More coins\n💳 Pension | x2 coins in pension!\n⛏️ Mine | Titanium pickaxe\n🪓 Lumberjack | Titanium axe"
     },
     "gift": {
