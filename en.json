@@ -25,7 +25,7 @@
     "clickHere2": "Click here",
     "executor": "Requested: %s",
     "onlynsfw": "this command can only be used in the NSFW channel.",
-    "userdonthaveavatar": "%s don't have avatar...",
+    "userdonthaveavatar": "<@%s> don't have avatar...",
     "bank": "Bank",
     "availablefromflamepremium": "Available from FlameOut **Premium**",
     "bitcoin": "Bitcoin",
@@ -527,7 +527,7 @@
     },
     "event": {
       "userget": "You have already received boxes for the event. The last event was <t:1640390400:R>.",
-      "getresources": "Happy New Year! Catch `%s` boxes and badge in profile!",
+      "getresources": "Amogus is sus! Catch `%s` boxes!",
       "noevent": "there are no events scheduled for this month yet. The last event was <t:1640390400:R>."
     },
     "cointree": {
@@ -801,6 +801,11 @@
     },
     "openbox": {
       "openbox": "Opening box"
+    },
+    "staff": {
+      "nubovik": "Founder, head of communication with users, generator of ideas",
+      "ilya": "Developer, magician of databases and complex utilities",
+      "qwerdev": "Developer, mysterious master"
     }
   }
 }
