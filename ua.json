@@ -426,7 +426,9 @@
       "stats": "Статистика",
       "botcommands": "Команди бота",
       "localization": "Переведено команд",
-      "inserver": "на сервері"
+      "inserver": "на сервері",
+      "developers1": "Developers",
+      "developers2": "developers"
     },
     "animals": {
       "randomcat": "Випадковий кіт",

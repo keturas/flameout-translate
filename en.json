@@ -426,7 +426,9 @@
       "stats": "Stats",
       "botcommands": "Bot commands",
       "localization": "Translated commands",
-      "inserver": "Prefix of server"
+      "inserver": "Prefix of server",
+      "developers1": "Разработчики",
+      "developers2": "Разработчики"
     },
     "animals": {
       "randomcat": "Random cat",
