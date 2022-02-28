@@ -71,10 +71,44 @@
     "pagelisting": "Для переміщення по сторінках використовуйте реакції.",
     "dateformat1": " D [днів], H [годин], m [хвилин], s [секунд]",
     "dateformat2": " D [д], H [ч], m [хв], s [сек]",
+    "embeds": {
+      "rights": {
+        "userNotDeveloper": "Извините, но эта команда доступна только разработчикам бота",
+        "userNotHaveRightsToManageMessages": "Извините, но у Вас нет прав на управление сообщениями",
+        "botNotHaveRightsToManageMessages": "Извините, но у бота нет прав на управление сообщениями",
+        "userNotHaveRightsToManageServer": "Извините, но у Вас нет прав на управление сервером",
+        "botNotHaveRightsToManageServer": "Извините, но у бота нет прав на управление сервером",
+        "userNotHaveRightsToManageChannels": "Извините, но у Вас нет прав на управление каналами",
+        "botNotHaveRightsToManageChannels": "Извините, но у бота нет прав на управление каналами",
+        "userNotAdminOfServer": "Извините, но Вы не являетесь администратором на сервере",
+        "botNotAdminOfServer": "Извините, но бот не является администратором на сервере",
+        "userNotHaveRightsToKick": "Извините, но у Вас нет прав для кика пользователей",
+        "botNotHaveRightsToKick": "Извините, но у бота нет прав для кика пользователей",
+        "userNotHaveRightsToBan": "Извините, но у Вас нет прав на бан пользователей",
+        "botNotHaveRightsToBan": "Извините, но у бота нет прав на бан пользователей",
+        "commandCannotWorkOnBot": "Извините, но данная команда не может сработать на FlameOut",
+        "dontBanYourself": "Извините, но Вы не можете забанить самого себя",
+        "dontKickYourself": "Извините, но Вы не можете кикнуть самого себя",
+        "thisIsNotVoiceChannel": "Извините, но это не голосовой канал",
+        "userNotInVoiceChannel": "Извините, но Вы не находитесь в голосовом канале"
+      },
+      "levelUp": "Уровень повышен! Твой уровень теперь `%s`!",
+      "disabledCommand": "Извините, но эта команда на данный момент недоступна."
+    },
     "nomanageserverrights": "у тебя нет права на управление сервером.",
     "nomanagemessagesrights": "у тебе немає права на управління повідомленнями.",
     "botnomanagemessagesrights": "у бота немає права на управління повідомленнями.",
     "botnomanagechannelsrights": "у бота немає права на управління каналами.",
+    "staffOnline1": "Команда онлайн",
+    "staffOnline2": "Команда онлайн: %s",
+    "staffOnline3": "команда онлайн",
+    "staffOnline4": "команда онлайн: %s",
+    "bughuntersOnline1": "Баг-хантери онлайн",
+    "bughuntersOnline2": "Баг-хантери онлайн: %s",
+    "bughuntersOnline3": "баг-хантери онлайн",
+    "bughuntersOnline4": "баг-хантери онлайн: %s",
+    "whoAreWe1": "Кто ми такі?",
+    "whoAreWe2": "кто ми такі?",
     "cooldown": "кулдаун %s секунд.",
     "halloween1": "З Хеллоуїном!",
     "happyholidays": "З Новим Роком!",
@@ -83,6 +117,10 @@
     "error1": "** Сталася помилка!** %s",
     "buy1": "Купити",
     "cancel1": "Відмінивши",
+    "inCache1": "У кеші",
+    "inCache2": "У кеші: %s",
+    "inCache3": "у кеші",
+    "inCache4": "у кеші: %s",
     "buttonInteractionIsProhibited": "<@%s>, взаємодіяти з командою може тільки той, хто викликав команду.",
     "vote": {
       "link": "Проголосувати і отримати бонус (клікабельно)"
@@ -613,6 +651,7 @@
     },
     "minecraftserver": {
       "noip": "ви забули вказати IP-адресу майнкрафт сервера.",
+      "noport": "ви не вказали порт сервера після ip-адреси, розділеної пробілом",
       "infoofserver": "Інформація про сервер",
       "online": "Онлайн: `%s` / `%s`",
       "version": "Версія: `%s`"
@@ -805,6 +844,7 @@
       "openbox": "Відкриття боксу"
     },
     "staff": {
+      "flameoutstaff": "Команда FlameOut",
       "nubovik": "Засновник, головний у спілкуванні з користувачами, генератор ідей",
       "ilya": "Розробник, маг баз даних та складних утиліт",
       "qwerdev": "Розробник, таємничий магістр"
