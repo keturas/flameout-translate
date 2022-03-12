@@ -44,6 +44,8 @@
     "Yandex1": "Yandex",
     "Yandex2": "yandex",
     "GitHub1": "GitHub",
+    "botlists1": "Bot lists",
+    "botlists2": "bot lists",
     "tools": {
       "pickaxe": {
         "wooden": "wooden",
@@ -116,11 +118,31 @@
     "wait1": "please wait...",
     "error1": "**An error has occurred!** %s",
     "buy1": "Buy",
+    "buy2": "buy",
     "cancel1": "Cancel",
+    "cancel2": "cancel",
     "inCache1": "In cache",
     "inCache2": "In cache: %s",
     "inCache3": "in cache",
     "inCache4": "in cache: %s",
+    "Cache1": "cache",
+    "Cache2": "cache: %s",
+    "Cache3": "Cache",
+    "Cache4": "Cache: %s",
+    "inDB1": "In db",
+    "inDB2": "In db",
+    "inDB3": "In db: %s",
+    "inDB4": "In db: %s",
+    "inDB5": "in db",
+    "inDB6": "in db",
+    "inDB7": "in db: %s",
+    "inDB8": "in db: %s",
+    "DB1": "DB",
+    "DB2": "db",
+    "DB3": "DB: %s",
+    "DB4": "db: %s",
+    "ms1": "MS",
+    "ms2": "ms",
     "buttonInteractionIsProhibited": "<@%s>, взаимодействовать с командой может только тот, кто вызвал команду.",
     "vote": {
       "link": "Vote and get bonus (clickable)"
@@ -464,7 +486,8 @@
       "stats": "Stats",
       "botcommands": "Bot commands",
       "localization": "Translated commands",
-      "inserver": "Prefix of server",
+      "inserver1": "On server",
+      "inserver2": "on server",
       "developers1": "Разработчики",
       "developers2": "Разработчики"
     },
@@ -566,9 +589,9 @@
       "usereating": "%s eating."
     },
     "event": {
-      "userget": "You have already received boxes for the event. The last event was <t:1640390400:R>.",
-      "getresources": "Amogus is sus! Catch `%s` boxes!",
-      "noevent": "there are no events scheduled for this month yet. The last event was <t:1640390400:R>."
+      "userget": "You have already received gifts for the event. The last event was <t:1646092800:R>.",
+      "getresources": "With the onset of spring! Catch `%s` gifts!",
+      "noevent": "there are no events scheduled for this month yet. The last event was <t:1646092800:R>."
     },
     "cointree": {
       "cointree": "Money tree",
