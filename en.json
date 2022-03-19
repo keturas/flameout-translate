@@ -454,7 +454,7 @@
     },
     "fishsell": {
       "userdonthavefish": "you don't have `fish`.",
-      "fishsell": "`%s` fish are sold for \"%s\" coins."
+      "fishsell": "`%s` fish are sold for `%s` coins."
     },
     "wood": {
       "cooldown": "the new tree has not yet grown.",
@@ -504,7 +504,7 @@
       "randonkoala": "Random koala"
     },
     "bitcoin": {
-      "bitcoininfo": "The cost of buying and selling\nbitcoin depends on its real\n[rate](https://www.google.com/search?q=bitcoin+rate). There is bitcoin in the bot right now\ncosts `%s` coins. At the moment, the rate is `%s%` of the\nreal.",
+      "bitcoininfo": "The cost of buying and selling bitcoin\ndepends on its real [rate](https://www.google.com/search?q=bitcoin+rate). There is\nbitcoin in the bot right now costs\n`%s` coins. At the moment, the\nrate is `%s%` of the real.",
       "soviet": "We advise you to sell bitcoins\nwhen the rate goes up.",
       "bitcoinbuy": "Buy bitcoin",
       "bitcoinsell": "Sell bitcoin"
