@@ -257,6 +257,9 @@
       "adding": "🔄 | Adding reactions to your message...",
       "done": "✅ | Reactions have been successfully added to your message."
     },
+    "avatar": {
+      "title": "Avatar of %s"
+    },
     "redguyinfo": {
       "noid": "you have not specified the user ID of the user https://account.redguy.ru.",
       "firstname": "Name: %s",
@@ -589,9 +592,9 @@
       "usereating": "%s eating."
     },
     "event": {
-      "userget": "You have already received gifts for the event. The last event was <t:1646092800:R>.",
-      "getresources": "With the onset of spring! Catch `%s` gifts!",
-      "noevent": "there are no events scheduled for this month yet. The last event was <t:1646092800:R>."
+      "userget": "You have already received boxes for the event. The last event was <t:%s:R>.",
+      "getresources": "9th april! Catch `%s` boxes!",
+      "noevent": "there are no events scheduled for this month yet. The last event was <t:%s:R>."
     },
     "cointree": {
       "cointree": "Money tree",
@@ -603,7 +606,7 @@
     },
     "leaders": {
       "leaders": "Leaders",
-      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Boxes\n - `leafs` | Leaf\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles\n - `languages` | Топ по языкам",
+      "notop": "You have not specified what subject you\nwant to get the top `10`. Available:\n- `xp` | Experience\n - `boxes` | Boxes\n - `leafs` | Leaf\n - `snake` | Points in the \"Snake\" game\n - `snus` | Snus\n - `votes` | Bot votes\n - `level` | Level\n - `coins` | Coins\n - `bitcoin` | Bitcoin\n - `gift` | Gifts\n - `bank` | Money in bank\n - `donaterubles` | Donate rubles",
       "nousers": "**At the moment, the top is empty.**",
       "leadersofexp": "Leaders of experience",
       "leadersofcoins": "Leaders of coins",
@@ -685,14 +688,17 @@
     },
     "hit": {
       "nomention": "mention who you want to hit.",
+      "noHitYourself": "don't hit yourself",
       "userhit": "%s hit %s"
     },
     "hug": {
       "nomention": "you forgot to mention the person you want to hug.",
+      "noHugYourself": "don't hug yourself",
       "userhug": "%s hug %s"
     },
     "kiss": {
       "nomention": "mention who you want to kiss.",
+      "noKissYourself": "don't kiss youself",
       "userkiss": "%s kiss %s"
     },
     "hungry": {
@@ -746,7 +752,7 @@
       "page": "Page: %s"
     },
     "popit": {
-      "name": "Pop-it in discord"
+      "name": "Popit in discord"
     },
     "pressf": {
       "nouser": "you don't mention user."
@@ -871,6 +877,195 @@
       "nubovik": "Founder, head of communication with users, generator of ideas",
       "ilya": "Developer, magician of databases and complex utilities",
       "qwerdev": "Developer, mysterious master"
+    },
+    "ben": {
+      "noQuestion": "вы не задали вопрос Бену.",
+      "yes1": "yes",
+      "no1": "no",
+      "hohoho1": "hohoho",
+      "ugh1": "ugh",
+      "listening": "Бен слушает ваш вопрос...",
+      "answer": "Бен ответил: %s"
+    }
+  },
+  "slashcommand": {
+    "cat": {
+      "name": "cat",
+      "description": "Probably everyone has a cat at home! This command shows random pictures of cats"
+    },
+    "dog": {
+      "name": "dog",
+      "description": "This command shows random pictures of dogs"
+    },
+    "bird": {
+      "name": "bird",
+      "description": "Do you like looking at birds? So do we! This command shows random pictures of birds"
+    },
+    "bunny": {
+      "name": "bunny",
+      "description": "Rabbits, bunnies... Who doesn't like them? This command shows random pictures of bunnies!"
+    },
+    "duck": {
+      "name": "duck",
+      "description": "Love ducks with pretty orange feet? This team shows random pictures of ducks!"
+    },
+    "koala": {
+      "name": "koala",
+      "description": "This command shows random pictures of koalas"
+    },
+    "lizard": {
+      "name": "lizard",
+      "description": "Do you like snakes? This command shows random pictures of snakes!"
+    },
+    "panda": {
+      "name": "panda",
+      "description": "Love big fluffy pandas? This team shows random pictures of pandas!"
+    },
+    "redpanda": {
+      "name": "redpanda",
+      "description": "Do you like red pandas more than pandas? This team shows random pictures of red pandas!"
+    },
+    "covid19": {
+      "name": "covid19",
+      "description": "Shows worldwide COVID-19 statistics"
+    },
+    "whennewyear": {
+      "name": "whennewyear",
+      "description": "Shows how much time is left until the new year"
+    },
+    "checkip": {
+      "name": "checkip",
+      "description": "Find out information about an IP address, its domain, country, continent, provider, and more",
+      "options": {
+        "ip": {
+          "name": "ip",
+          "description": "Enter the IP address you want to know about."
+        }
+      }
+    },
+    "weather": {
+      "name": "weather",
+      "description": "Find out the weather in your city",
+      "options": {
+        "city": {
+          "name": "city",
+          "description": "Enter the city where you want to know the weather."
+        }
+      }
+    },
+    "choose": {
+      "name": "choose",
+      "description": "The bot will choose one of two options.",
+      "options": {
+        "one": {
+          "name": "1st",
+          "description": "Please select the first option"
+        },
+        "two": {
+          "name": "2st",
+          "description": "Specify a second option"
+        }
+      }
+    },
+    "hit": {
+      "name": "hit",
+      "description": "Hit user",
+      "options": {
+        "user": {
+          "name": "user",
+          "description": "Specify the user you want to hit"
+        }
+      }
+    },
+    "hug": {
+      "name": "hug",
+      "description": "Hug user",
+      "options": {
+        "user": {
+          "name": "user",
+          "description": "Specify the user you want to hug"
+        }
+      }
+    },
+    "kiss": {
+      "name": "kiss",
+      "description": "Kiss user",
+      "options": {
+        "user": {
+          "name": "user",
+          "description": "Specify the user you want to kiss"
+        }
+      }
+    },
+    "categorystats": {
+      "name": "statistics of categories",
+      "description": "How many times did you use the bot commands in total? You can find out here"
+    },
+    "botlists": {
+      "name": "botlists",
+      "description": "Monitoring bots that have FlameOut"
+    },
+    "ping": {
+      "name": "ping",
+      "description": "Find API delay"
+    },
+    "version": {
+      "name": "version",
+      "description": "Current bot version"
+    },
+    "uptime": {
+      "name": "uptime",
+      "description": "Shows bot uptime"
+    },
+    "invitebot": {
+      "name": "invitebot",
+      "description": "Invite bot to your server"
+    },
+    "translate": {
+      "name": "translatebot",
+      "description": "GitHub repository with FlameOut translation. Bonuses are given for helping with translation"
+    },
+    "vote": {
+      "name": "vote",
+      "description": "Vote for the top.gg bot and get bonus gifts"
+    },
+    "idea": {
+      "name": "idea",
+      "description": "Submit idea to bot developers",
+      "options": {
+        "idea": {
+          "name": "idea",
+          "description": "Describe the idea in detail"
+        }
+      }
+    },
+    "bug": {
+      "name": "bug",
+      "description": "Report found bug to bot developers",
+      "options": {
+        "bug": {
+          "name": "bug",
+          "description": "Describe in detail the error you found in the bot"
+        }
+      }
+    },
+    "test": {
+      "name": "test",
+      "description": "A test slash command that makes life easier for FlameOut developers."
+    },
+    "staff": {
+      "name": "staffflameout",
+      "description": "List of developers FlameOut"
+    },
+    "8ball": {
+      "name": "8ball",
+      "description": "Ask a question to the ball",
+      "options": {
+        "bug": {
+          "name": "question",
+          "description": "What question do you want to ask the ball?"
+        }
+      }
     }
   }
 }
